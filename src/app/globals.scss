@@ -1,27 +1,123 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-// :root {
-//   --foreground-rgb: 0, 0, 0;
-//   --background-start-rgb: 214, 219, 220;
-//   --background-end-rgb: 255, 255, 255;
-// }
+html{
+  color: white;
+  overflow-x: hidden;
+}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+p,div,h1,h2,h3,h4,h5,h6,button{
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.fmb{
+  font-family: 'Press Start 2P'!important;
+}
+
+.main{
+  background: linear-gradient(180deg, #FFB898 0%, #FFDBAF 100%);
+}
+
+.video{
+  background: rgba(28, 26, 25, 0.25);
+}
+
+@media only screen and (min-width: 768px) {
+  .box::before{
+    content: "";
+    position: absolute;
+    top: 66.7%;
+    left: 77%;
+    width: 200px;
+    height: 255px;
+    background-image: url('/Bricktop 1.png');
+    background-size: cover;
   }
 }
 
-body {
-  // color: rgb(var(--foreground-rgb));
-  // background: linear-gradient(
-  //     to bottom,
-  //     transparent,
-  //     rgb(var(--background-end-rgb))
-  //   )
-  //   rgb(var(--background-start-rgb));
+@media only screen and (max-width: 768px) {
+  .box::before {
+    content: "";
+    position: absolute;
+    top: 595px;
+    left: 63%;
+    width: 152px;
+    height: 170px;
+    background-image: url('/Bricktop 1.png');
+    background-size: cover;
+  }
+}
+
+.box::after{
+  content: "";
+  position: absolute;
+  top: 767px;
+  left: -35px;
+  width: 34px;
+  height: 39px;
+  background-image: url('/Vector 57.svg');
+}
+
+.vector{
+  position: relative;
+}
+
+.vector::after{
+  content: "";
+  position: absolute;
+  top: 123px;
+  left: 700px;
+  width: 38px;
+  height: 39px;
+  background-image: url('/Vector 58.svg');
+}
+
+.vector::before{
+  content: "";
+  position: absolute;
+  top: -690px;
+  left: 100%;
+  width: 38px;
+  height: 39px;
+  background-image: url('/Vector 59.svg');
+}
+
+.vector1::after{
+  content: "";
+  position: absolute;
+  top: 100px;
+  right: 260px;
+  width: 38px;
+  height: 39px;
+  background-image: url('/Vector 60.svg');
+}
+
+
+@media only screen and (min-width: 768px) {
+  .bg-img{
+    background-image: url('/photo_5084860946681277544_y_1-removebg-preview.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.bg-texture{
+  background-image: url('/photo_5017356675107105777_y 2.png');
+}
+
+.border-3{
+  border-width: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .bg-small-img{
+    background-image: url('/photo_5084860946681277544_y_1-removebg-preview 1 (1).png');
+    background-position: bottom;
+    background-size: calc(430px);
+    background-repeat: no-repeat;
+  }
 }

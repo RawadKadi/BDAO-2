@@ -1,7 +1,7 @@
 export default function TestPage() {
   return (
     <section>
-      <div>asd</div>
+      <div></div>
     </section>
   );
 }
