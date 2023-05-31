@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 const Footer = () => {
+  return (
   <footer>
     <div className="footer mt-20">
       <Image
@@ -16,6 +17,7 @@ const Footer = () => {
         width={1700}
         height={700}
         src="/Group 25.png"
+        alt=""
       >
       </Image>
       <Image
@@ -23,6 +25,7 @@ const Footer = () => {
         width={768}
         height={50}
         src="/Group 146.jpg"
+        alt=""
       >
       </Image>
       <div className="socials bg-[#242424] py-4 flex justify-between">
@@ -57,7 +60,8 @@ const Footer = () => {
         </div>
       </div>
     </div>
-  </footer>;
+   </footer>
+  )
 }
 
 export default Footer;

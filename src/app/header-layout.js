@@ -1,10 +1,12 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
 
 const Header = () => {
     return (
       <header>
-        <div className='header flex justify-around pt-12'>
+        <div className='header flex items-center justify-around pt-12'>
         <div>
           <Image
               className=''
@@ -29,11 +31,11 @@ const Header = () => {
             RoadMap
           </Link>
         </div>
-        <div>
-          <button className='btn border-2 border-white p-2 flex text-[14px] font-semibold fmi'>
-            Leave a note 
-            <img width={18} className='ml-3 mt-1' src="/Arrow 1.svg"/>
-          </button>
+        <div className="">
+            <button className='p-2 flex relative text-[14px] font-semibold button py-3'>
+              <p>Leave a note</p>
+              <img width={18} className='ml-3 mt-1' src="/Arrow 1.svg"/>
+            </button>
         </div>
         <div className="md:hidden">
           <Image

@@ -13,6 +13,10 @@ p,div,h1,h2,h3,h4,h5,h6,button{
   font-family: 'IBM Plex Mono', monospace;
 }
 
+.fmi{
+  font-family: 'IBM Plex Mono', italic;
+}
+
 .fmb{
   font-family: 'Press Start 2P'!important;
 }
@@ -100,7 +104,7 @@ p,div,h1,h2,h3,h4,h5,h6,button{
   .bg-img{
     background-image: url('/photo_5084860946681277544_y_1-removebg-preview.png');
     background-size: contain;
-    background-position: center;
+    background-position: center 160px;
     background-repeat: no-repeat;
   }
 }
@@ -121,3 +125,27 @@ p,div,h1,h2,h3,h4,h5,h6,button{
     background-repeat: no-repeat;
   }
 }
+
+/*.button{
+  border: white 1px solid;
+  width: 161px;
+}
+
+.button:hover{
+  transform: translate(-10px , 11.5px);
+  transition: 0.3s ease-in-out;
+
+}
+
+.svg{
+  position: absolute;
+  height: 60px;
+  width: 170px;
+  top: 46px;
+  right: 165px;
+}
+
+.button:hover .svg-container {
+  opacity: 0;
+  display: none;
+} */
