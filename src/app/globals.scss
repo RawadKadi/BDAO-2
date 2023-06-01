@@ -89,16 +89,29 @@ p,div,h1,h2,h3,h4,h5,h6,button{
   background-image: url('/Vector 59.svg');
 }
 
-.vector1::after{
-  content: "";
-  position: absolute;
-  top: 100px;
-  right: 260px;
-  width: 38px;
-  height: 39px;
-  background-image: url('/Vector 60.svg');
+@media only screen and (max-width:768px){
+  .vector1::after{
+    content: "";
+    position: absolute;
+    top: 95.4px;
+    right: 255px;
+    width: 38px;
+    height: 39px;
+    background-image: url('/Vector 60.svg');
+  }
 }
 
+@media only screen and (min-width:768px){
+  .vector1::after{
+    content: "";
+    position: absolute;
+    top: 95.4px;
+    right: 255px;
+    width: 38px;
+    height: 39px;
+    background-image: url('/Vector 60.svg');
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .bg-img{

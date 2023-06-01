@@ -32,8 +32,8 @@ const Header = () => {
           </Link>
         </div>
         <div className="">
-            <button className='p-2 flex relative text-[14px] font-semibold button py-3'>
-              <p>Leave a note</p>
+            <button className='p-2 flex relative text-[14px] font-semibold border-2 border-white py-3'>
+              <span>Leave a note</span>
               <img width={18} className='ml-3 mt-1' src="/Arrow 1.svg"/>
             </button>
         </div>

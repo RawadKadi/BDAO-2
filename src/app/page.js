@@ -45,7 +45,7 @@ export default function Home() {
           </p>
         </div>
         <section className="bg-img">
-          <div className='flex justify-center'>
+          <div className='flex justify-center mt-7'>
             <Image
             className=''
             width={510}
@@ -63,8 +63,8 @@ export default function Home() {
             <div className='flex justify-center font-semibold fmi'>
               <div className="vector1 relative"></div>
               <button className='btn border-2 border-white flex text-[16px] p-2 md:inline-flex hidden'>
-                 Launch the app
-                 <img width={18} className='ml-3 mt-1' src="/Arrow 1.svg"/>
+                  <span>Launch the app</span>
+                  <img width={18} className='ml-3 mt-1' src="/Arrow 1.svg"/>
               </button>
             </div>
             <div className='flex justify-center mt-24'>
