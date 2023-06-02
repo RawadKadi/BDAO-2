@@ -1,12 +1,23 @@
+"use client";
+
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Link from "next/link";
+import React from "react";
+
 
 const Header = () => {
+
+  const[isOpen , setOpen] = React.useState(false)
+
+  const toggleDropdown = () => {
+    setOpen(!isOpen)
+  }
+
     return (
       <header>
-        <div className='header flex items-center justify-around pt-12'>
+      <div className='header flex items-center justify-around pt-12'>
         <div>
           <Image
               className=''
@@ -37,7 +48,7 @@ const Header = () => {
               <img width={18} className='ml-3 mt-1' src="/Arrow 1.svg"/>
             </button>
         </div>
-        <div className="md:hidden">
+        <div onClick={toggleDropdown} className="md:hidden cursor-pointer">
           <Image
           className=""
           width={30}
@@ -45,10 +56,9 @@ const Header = () => {
           src="/tabler-icon-menu-2.svg"
           alt=""
           ></Image>
-        </div>
+          </div>
       </div>
       </header>
-      
     );
   };
 

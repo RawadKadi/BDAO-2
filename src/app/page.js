@@ -19,28 +19,22 @@ export default function Home() {
         <div className="text-center text-[20px] md:block hidden font-semibold fmi">
           <p>
             We are proud to present Bricklayer, the 'Real Estate' DAO.
-          </p>
-          <p>
+            <br />
             A truly unique project on the blockchain underpinned by
-          </p>
-          <p>
+            <br />
             the safest of asset classes
           </p>
         </div>
         <div className="text-center text-[16px] md:hidden font-semibold fmi mt-8">
           <p>
             We are proud to present
-          </p>
-          <p>
+            <br />
             BrickLayer, the 'Real Estate' DAO.
-          </p>
-          <p>
+            <br />
             A truly unique project on the
-          </p>
-          <p>
+            <br />
             blockchain underpinned by the
-          </p>
-          <p>
+            <br />
             safest of asset classes
           </p>
         </div>
@@ -76,23 +70,17 @@ export default function Home() {
                 <div className="mt-3 fmi font-semibold md:block hidden text-[16px]">
                   <p>
                     This platform provides our community with access to
-                  </p>
-                  <p>
+                    <br />
                     institutional-grade occupiers and builds wealth
-                  </p>
-                  <p>
+                    <br />
                     through sophisticated real estate transactions fueled
-                  </p>
-                  <p>
+                    <br />
                     by digital asset growth. An original and simple
-                  </p>
-                  <p>
+                    <br />
                     approach which prioritizes smart hedging strategies
-                  </p>
-                  <p>
+                    <br />
                     consistent dividend generation, and creating capital
-                  </p>
-                  <p>
+                    <br />
                     value appreciation.
                   </p>
                 </div>
@@ -107,30 +95,23 @@ export default function Home() {
                 <div className="mt-3 font-semibold md:hidden block text-[16px]">
                   <p>
                     This platform provides our community
-                  </p>
-                  <p>
+                    <br />
                     with access to institutional-grade 
-                  </p>
-                  <p>
+                    <br />
                     occupiers and builds wealth through 
-                  </p>
-                  <p>
+                    <br />
                     sophisticated real estate 
-                  </p>
-                  <p>
+                    <br />
                     transactions fueled by digital asset 
-                  </p>
-                  <p>
+                    <br />
                     growth. An original and simple 
-                  </p>
-                  <p>
+                    <br />
                     approach which prioritizes smart
-                  <p>
+                    <br />
                     hedging strategies, consistent 
-                  </p>
+                    <br />
                     dividend generation, and creating
-                  </p>
-                  <p>
+                    <br />
                     capital value appreciation.
                   </p>
                 </div>

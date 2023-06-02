@@ -14,7 +14,7 @@ const Footer = () => {
       </Image>
       <Image
         className="sm:block hidden"
-        width={1700}
+        width={2000}
         height={700}
         src="/Group 25.png"
         alt=""
@@ -29,9 +29,9 @@ const Footer = () => {
       >
       </Image>
       <div className="socials bg-[#242424] py-4 flex justify-between">
-        <div className="fmi font-medium text-[20px] ml-12">
-          <p>@2023 BrickLayer</p>
-        </div>
+        <p className="fmi font-medium text-[20px] ml-12">
+          @2023 BrickLayer
+        </p>
         <div className="fmi font-medium text[20px] flex mr-12">
           <Image
             className="mr-6"
