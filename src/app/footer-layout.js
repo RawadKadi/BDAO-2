@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 const Footer = () => {
+  
   return (
   <footer>
     <div className="footer mt-20">
@@ -13,7 +14,7 @@ const Footer = () => {
       >
       </Image>
       <Image
-        className="sm:block hidden"
+        className="sm:block hidden w-full h-full object-cover"
         width={2000}
         height={700}
         src="/Group 25.png"
