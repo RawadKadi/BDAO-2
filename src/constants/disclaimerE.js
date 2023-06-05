@@ -3,7 +3,7 @@ const disclaimersEng = [
         id: 0 , 
         disclaimer: 'Front Disclaimer', 
         title: 'Disclaimer',
-         content : () => {
+        content : () => {
             return (
                 <p className="text-[20px] mt-4">
                     Any claims that are not historical facts, such as those in this document, may be deemed forward-looking statements that may be contained in this document or incorporated by reference. This document includes no assurances or warranties about the accuracy of any forward-looking statements. This material's predictions, projections, and estimates are fundamentally speculative and based on many assumptions.
@@ -225,7 +225,7 @@ const disclaimersEng = [
         content : () => {
             return (
                 <p className="text-[20px] mt-4">
-                    Please contact <a  className="text-black">inquiries@bricklayerdao.xyz</a> for further information
+                    Please contact <a className="text-black">inquiries@bricklayerdao.xyz</a> for further information
                 </p>
             )
         }
