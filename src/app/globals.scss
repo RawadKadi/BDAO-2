@@ -6,7 +6,7 @@
 
 html{
   color: white;
-  overflow-x: hidden;
+  
 }
 
 p,div,h1,h2,h3,h4,h5,h6,button{
@@ -29,31 +29,31 @@ p,div,h1,h2,h3,h4,h5,h6,button{
   background: rgba(28, 26, 25, 0.25);
 }
 
-@media only screen and (min-width: 768px) {
-  .box::before{
-    content: "";
-    position: absolute;
-    top: 66.7%;
-    left: 77%;
-    width: 200px;
-    height: 255px;
-    background-image: url('/Bricktop 1.png');
-    background-size: cover;
-  }
-}
+// @media only screen and (min-width: 768px) {
+//   .box::before{
+//     content: "";
+//     position: absolute;
+//     top: 66.7%;
+//     left: 77%;
+//     width: 200px;
+//     height: 255px;
+//     background-image: url('/Bricktop 1.png');
+//     background-size: cover;
+//   }
+// }
 
-@media only screen and (max-width: 768px) {
-  .box::before {
-    content: "";
-    position: absolute;
-    top: 595px;
-    left: 63%;
-    width: 152px;
-    height: 170px;
-    background-image: url('/Bricktop 1.png');
-    background-size: cover;
-  }
-}
+// @media only screen and (max-width: 768px) {
+//   .box::before {
+//     content: "";
+//     position: absolute;
+//     top: 595px;
+//     left: 63%;
+//     width: 152px;
+//     height: 170px;
+//     background-image: url('/Bricktop 1.png');
+//     background-size: cover;
+//   }
+// }
 
 .box::after{
   content: "";

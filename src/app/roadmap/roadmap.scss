@@ -1,18 +1,59 @@
-.bg-road{
-    background-image: url('/Group 144.svg');
+.bg-road {
+    background-image: url("/Group 144.svg");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: center;
 }
-  
-  .bg-footer{
-    background-image: url('/photo_5100376236865203014_y-removebg-preview 2.png');
+
+.bg-footer {
+    background-image: url("/photo_5100376236865203014_y-removebg-preview 2.png");
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
 
-  .bg-blur{
+.bg-blur {
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(2px);
-  }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    
+    justify-content: center;
+    width: 1000vw;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+   
+    position: relative;
+}
+
+.row:nth-child(2) {
+    left: -50px;
+}
+
+.row:nth-child(3) {
+    left: 20px;
+}
+
+.row:nth-child(4) {
+    left: -50px;
+}
+
+.boxes {
+    width: 500px;
+    
+    height: 332px;
+    background-color: #ccc;
+    margin-right: 30px;
+
+    &.b {
+        border: 5px solid rgb(89, 75, 167);
+        box-sizing: border-box;
+    }
+}
