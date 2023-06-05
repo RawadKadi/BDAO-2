@@ -3,7 +3,7 @@ const row3 = [
         id:0,
         content : () => {
             return (
-                <div className="bg-[#E26E5D] border-2 border-white h-[150px] opacity-10">
+                <div className="border-2 border-white h-[362.44px] w-[623.37px]  bg-opacity-30"style={{height:"162.44px",backgroundColor: "rgba(226, 110, 93, 0.23)"}}>
                 </div>
             )
         }
@@ -12,7 +12,7 @@ const row3 = [
         id:1,
         content : () => {
             return (
-                <div className="bg-[#E26E5D] border-2 border-white h-[150px] opacity-10">
+                <div className="border-2 border-white h-[362.44px] w-[623.37px]  bg-opacity-30"style={{height:"162.44px",backgroundColor: "rgba(226, 110, 93, 0.23)"}}>
                 </div>
             )
         }
@@ -21,10 +21,10 @@ const row3 = [
         id:2,
         content : () => {
             return (
-                <div className="font-semibold border-2 border-white bg-[#E26E5D] h-[150px]">
+                <div className="border-2 border-white h-[362.44px] w-[623.37px] bg-[#E26E5D]"style={{height:"162.44px"}}>
                      <div className="flex gap-5 mt-4 ml-4">
-                        <span className="fmb">3</span>
-                        <span>Full Scale Project<br /> Developpement</span>
+                     <span className="fmb" style={{ marginRight: "0.5rem" }}>3</span> {/* Added inline style for right margin */}
+                        <span className="font-semibold">Full Scale Project<br /> Developpement</span>
                     </div>
                 </div>
             )
@@ -34,7 +34,7 @@ const row3 = [
         id:3,
         content : () => {
             return (
-                <div className="bg-[#E26E5D] border-2 border-white h-[150px] opacity-30">
+                <div className="border-2 border-white h-[362.44px] w-[623.37px]  bg-opacity-30"style={{height:"162.44px",backgroundColor: "rgba(226, 110, 93, 0.23)"}}>
                 </div>
             )
         }
@@ -43,7 +43,7 @@ const row3 = [
         id:4,
         content : () => {
             return (
-                <div className="bg-[#E26E5D] border-2 border-white h-[150px] opacity-10">
+                <div className="border-2 border-white h-[362.44px] w-[623.37px]  bg-opacity-30"style={{height:"162.44px",backgroundColor: "rgba(226, 110, 93, 0.23)"}}>
                 </div>
             )
         }

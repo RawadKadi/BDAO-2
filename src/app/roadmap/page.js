@@ -51,77 +51,77 @@ export default function roadmap() {
                         )}
                         {row2.map((item)=>{
                         return (
-                            <div className="translate-x-[-13rem] border-2 border-white" key={item.id}>
+                            <div className="translate-x-[-8rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
                         )}
                         {row3.map((item)=>{
                         return (
-                            <div className="translate border-2 border-white" key={item.id}>
+                            <div className="translate-x-[3rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
                         )}
                         {row4.map((item)=>{
                         return (
-                            <div className="translate border-2 border-white" key={item.id}>
+                            <div className="translate-x-[-10rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
                         )}
                         {row5.map((item)=>{
                         return (
-                            <div className="translate border-2 border-white" key={item.id}>
+                            <div className="translate-x-[-1rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
                         )}
                         {row6.map((item)=>{
                         return (
-                            <div className="translate border-2 border-white" key={item.id}>
+                            <div className="translate-x-[-10rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
                         )}
                         {row7.map((item)=>{
                         return (
-                            <div className="translate border-2 border-white" key={item.id}>
+                            <div className="translate-x-[4rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
                         )}
                         {row8.map((item)=>{
                         return (
-                            <div className="translate border-2 border-white" key={item.id}>
+                            <div className="translate-x-[-10rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
                         )}
                         {row9.map((item)=>{
                         return (
-                            <div className="translate border-2 border-white" key={item.id}>
+                            <div className="translate-x-[-1rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
                         )}
                         {row10.map((item)=>{
                         return (
-                            <div className="translate border-2 border-white" key={item.id}>
+                            <div className="translate-x-[-10rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
                         )}
                         {row11.map((item)=>{
                         return (
-                            <div className="translate border-2 border-white" key={item.id}>
+                            <div className="translate-x-[5rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
                         )}
                         {row12.map((item)=>{
                         return (
-                            <div className="translate border-2 border-white" key={item.id}>
+                            <div className="translate-x-[-8rem] border-2 border-white" key={item.id}>
                                 {item.content()}
                             </div>
                         )}
