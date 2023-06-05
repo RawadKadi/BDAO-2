@@ -39,22 +39,7 @@ export default function roadmap() {
                         </div>
                         <br />
 
-                        <div className="container mx-auto w-full md:w-3/4 lg:w-1/2">
-                            <div className="row">
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes b"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                
-                            </div>
-                            <div className="row">
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes b"></div>
-                                <div className="boxes"></div>
-                            </div>
+                        <div className="ccontainer w-full ">
                             <div className="row">
                                 <div className="boxes"></div>
                                 <div className="boxes"></div>
@@ -72,15 +57,15 @@ export default function roadmap() {
                             <div className="row">
                                 <div className="boxes"></div>
                                 <div className="boxes"></div>
-                                <div className="boxes"></div>
                                 <div className="boxes b"></div>
+                                <div className="boxes"></div>
                                 <div className="boxes"></div>
                             </div>
                             <div className="row">
                                 <div className="boxes"></div>
                                 <div className="boxes"></div>
-                                <div className="boxes b"></div>
                                 <div className="boxes"></div>
+                                <div className="boxes b"></div>
                                 <div className="boxes"></div>
                             </div>
                         </div>
