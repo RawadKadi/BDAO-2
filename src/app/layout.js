@@ -26,7 +26,8 @@ export default function RootLayout({ children }) {
 
             <body className={inter.className}>
                 <Header />
-                <section className="mt-[69px]">{children}</section>
+                <section className="mt-[81px]"></section>
+                {children}
                 <Footer />
             </body>
         </html>

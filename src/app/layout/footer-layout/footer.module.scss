@@ -1,0 +1,13 @@
+.doll {
+    animation: walk 5s linear infinite;
+}
+
+@keyframes walk {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: -20%;
+    }
+}

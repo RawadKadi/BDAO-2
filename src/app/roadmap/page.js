@@ -1,5 +1,5 @@
 import Header from "../layout/header-layout";
-import Footer from "../layout/footer-layout";
+import Footer from "../layout";
 
 import row1 from "@/constants/row1";
 import row2 from "@/constants/row2";

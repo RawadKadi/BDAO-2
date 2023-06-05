@@ -1,6 +1,41 @@
 .header {
-    @apply block;
+}
+
+@media screen and (max-width: 768px) {
+    .header-menu {
+        position: fixed;
+        top: 81px;
+        left: 0;
+
+        height: 100vh;
+
+        left: 100%;
+
+        transition: 0.5s ease-in-out;
+
+        @apply bg-[#D86F60];
+
+        &.active {
+            left: 0;
+        }
+    }
 }
 
 .header-link {
+    @apply block;
+    @apply py-2;
+    @apply border-b-2;
+    @apply border-transparent;
+
+    @apply text-white;
+
+    @apply text-center;
+
+    &.active {
+        @apply bg-white;
+        @apply bg-opacity-25;
+
+        @apply md:bg-transparent;
+        @apply md:border-white;
+    }
 }
