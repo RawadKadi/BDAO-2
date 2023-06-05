@@ -19,7 +19,7 @@ export default function Ap() {
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-20 lg:mx-36 sm:mx-12 mx-10 mt-20">
                     <div className="box-1 bg-[#E26E5D] bg-opacity-70 text-center border-3 border-transparent hover:border-white">
                         <h1 className="fmb text-[24px] mt-4">
-                            Legal <br />
+                            Legal<br />
                             Advisor
                         </h1>
                         <br />
@@ -45,7 +45,7 @@ export default function Ap() {
                             </p>
                         </div>
                     </div>
-                    <div className="box-2 bg-[#E26E5D] bg-opacity-70 text-center border-3 border-transparent hover:border-white">
+                    <div className="box-2 bg-[#E26E5D] bg-opacity-70 text-center border-3 border-transparent hover:border-white pb-10">
                         <h1 className="fmb text-[24px] mt-4">
                             Blockchain <br />
                             (Full Stack) <br />
@@ -154,7 +154,7 @@ export default function Ap() {
                             </p>
                         </div>
                     </div>
-                    <div className="box-5 bg-[#E26E5D] bg-opacity-70 text-center border-3 border-transparent hover:border-white">
+                    <div className="box-5 bg-[#E26E5D] bg-opacity-70 text-center border-3 border-transparent hover:border-white pb-10">
                         <h1 className="fmb text-[24px] mt-4">
                             Project <br />
                            Accelerator <br />

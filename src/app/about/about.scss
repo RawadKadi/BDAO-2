@@ -1,13 +1,26 @@
 .text{
     opacity: 0.6;
-    transition: opacity 0.3s ease-out;
+    transition: opacity 0.5s ease-out;
 }
 
 .text:active{
     opacity: 1;
 }
 
-.column-2::after{
+@media only screen and (max-width:768px){
+  .column-2::after{
+    content: "";
+    position: absolute;
+    top: 27px;
+    left: 35px;
+    width: 22px;
+    height: 22px;
+    background-image: url('/Vector 56.svg');
+}
+}
+
+@media only screen and (min-width:768px){
+  .column-2::after{
     content: "";
     position: absolute;
     top: 40px;
@@ -15,33 +28,42 @@
     width: 22px;
     height: 22px;
     background-image: url('/Vector 56.svg');
+  }
 }
 
-.cont{
-    max-height:min-content;
-    overflow: hidden;
-    transition: height 0.3s ease;
-}
-
-.number{
+@media only screen and (min-width:768px){
+  .number{
     transform: translate(-40px , -52px);
 }
+}
 
-.fade-in {
-    opacity: 1;
-    transition: opacity 0.5s ease-in;
-  }
-  
-  .fade-out {
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
-  }
+@media only screen and (max-width:768px){
+  .number{
+    transform: translate(-8px , -25px);
+}
+}
 
   .italic {
-    font-size: 16px;
-    font-weight: 100;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
   }
 
   li{
     list-style-type: disc;
+  }
+
+  .fade{
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .show{
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .translate{
+    position: absolute;
+    left: 40px;
   }
