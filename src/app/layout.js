@@ -1,9 +1,11 @@
 import Script from "next/script";
-import "./globals.scss";
 import { Inter } from "next/font/google";
 
 import Header from "./layout/header-layout";
 import Footer from "./layout/footer-layout";
+
+import "./layout/header-layout/header.scss";
+import "./globals.scss";
 
 const inter = Inter({ subsets: ["latin"] });
 

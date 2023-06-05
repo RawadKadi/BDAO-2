@@ -45,11 +45,16 @@ export default function Home() {
             </Image> */}
                             <model-viewer
                                 src="/media/models/logo.gltf"
-                                shadow-intensity="1"
+                                loading="eager"
+                                auto-rotate
                                 camera-controls
+                                rotation-per-second="20deg"
+                                shadow-intensity="1"
                                 touch-action="pan-y"
+                                disable-zoom
+                                exposure="0.6"
                                 style={{
-                                    width: 500,
+                                    width: "100%",
                                     height: 500,
                                 }}
                             ></model-viewer>

@@ -1,8 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
-import Header from "../header-layout";
-import Footer from "../footer-layout";
 import "./Ap.scss";
 
 export default function Ap() {
@@ -10,7 +8,6 @@ export default function Ap() {
         <>
             <div className="main">
                 <div className="bg-texture">
-                    <Header />
                     <div className="title text-center text-[48px] mt-16">
                         <p className="fmb">Active Participant</p>
                         <p className="fmb">Positions</p>
@@ -227,7 +224,6 @@ export default function Ap() {
                             </div>
                         </div>
                     </div>
-                    <Footer />
                 </div>
             </div>
         </>

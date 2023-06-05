@@ -4,15 +4,11 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
-import Header from "./header-layout";
-import Footer from "./footer-layout";
-
 export default function Home() {
     return (
         <>
             <div className="main">
                 <div className="bg-texture">
-                    <Header />
                     <p className="text-center lg:text-[80px] md:text-[50px] text-[32px] mt-14 fmb">
                         BRICKLAYER
                     </p>
@@ -142,7 +138,6 @@ export default function Home() {
                             </div>
                         </div>
                     </section>
-                    <Footer />
                 </div>
             </div>
         </>
