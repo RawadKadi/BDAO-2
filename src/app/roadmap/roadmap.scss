@@ -18,18 +18,18 @@
 }
 
 .container {
-    display: flex;
+   
     flex-direction: column;
     row-gap: 50px;
     
     justify-content: center;
-    width: 1000vw;
+    width: 100%;
     box-sizing: border-box;
 }
 
 .row {
     display: flex;
-   
+  margin-top:"20px";
     position: relative;
 }
 
@@ -47,7 +47,7 @@
 
 .boxes {
     width: 500px;
-    
+    margin-top: "20px";
     height: 332px;
     background-color: #ccc;
     margin-right: 30px;
@@ -55,5 +55,5 @@
     &.b {
         border: 5px solid rgb(89, 75, 167);
         box-sizing: border-box;
-    }
+          }
 }
