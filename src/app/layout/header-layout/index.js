@@ -36,7 +36,7 @@ const Header = () => {
 
     return (
         <nav
-            className={`bg-[#D86F60] md:bg-transparent  fixed w-full z-20 top-0 left-0  ${
+            className={`bg-[#D86F60] fixed w-full z-20 top-0 left-0  ${
                 scrollY <= 100 ? "md:bg-transparent" : "md:bg-[#D86F60]"
             } transition-colors duration-300`}
         >
@@ -84,7 +84,7 @@ const Header = () => {
                     }`}
                     id="navbar-sticky"
                 >
-                    <ul className="flex flex-col md:flex-row mt-4 md:mt-0 font-semibold  md:space-x-16 space-y-8 md:space-y-0 relative ">
+                    <ul className="flex flex-col md:flex-row mt-4 md:mt-0 font-semibold  md:gap-x-16 md:mx-auto space-y-8 md:space-y-0 relative ">
                         <li>
                             <a
                                 href="/"
@@ -120,7 +120,6 @@ const Header = () => {
                                 RoadMap
                             </a>
                         </li>
-                        <li className="down-bar"></li>
                     </ul>
                     {/* <Link
                         href="/"
