@@ -17,20 +17,27 @@
     backdrop-filter: blur(2px);
 }
 
-.container {
-   
+
+
+.ccontainer {
+    display: flex;
     flex-direction: column;
     row-gap: 50px;
-    
+
     justify-content: center;
+
     width: 100%;
+
     box-sizing: border-box;
 }
 
 .row {
     display: flex;
   margin-top:"20px";
+
     position: relative;
+
+    column-gap: 20px;
 }
 
 .row:nth-child(2) {
@@ -46,14 +53,17 @@
 }
 
 .boxes {
-    width: 500px;
-    margin-top: "20px";
-    height: 332px;
-    background-color: #ccc;
+    
+    width: 20%;
+    border: 1px solid black;
+
+    height: 225px;
+    background-color: rgba(226, 110, 93, 0.23);
     margin-right: 30px;
+    border: 3px solid white;
 
     &.b {
-        border: 5px solid rgb(89, 75, 167);
+        background-color: rgba(#e26e5d, 0.75);
         box-sizing: border-box;
           }
 }

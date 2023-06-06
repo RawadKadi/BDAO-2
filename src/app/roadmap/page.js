@@ -39,49 +39,256 @@ export default function roadmap() {
                         </div>
                         <br />
 
-                        <div className="container mx-auto w-full md:w-3/4 lg:w-1/2">
-                            <div className="row">
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes b"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                
+                        <div className="ccontainer w-full ">
+                            <div className="row translate-x-[-5rem]">
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b border-2 border-white h-[362.44px] w-[623.37px] bg-[#E26E5D] mx-auto md:mx-0">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            1
+                                        </span>
+                                        <span className="font-semibold">
+                                            Formation of UAE <br /> Legal Entity
+                                        </span>{" "}
+                                        {/* Added font-semibold class */}
+                                    </div>
+                                </div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
                             </div>
-                            <div className="row">
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes b"></div>
-                                <div className="boxes"></div>
+                            <div className="row translate-x-[9rem]">
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            2
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            Blockchain Grant <br /> Application
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
                             </div>
-                            <div className="row">
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes b"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
+                            <div className="row translate-x-[0rem]">
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            3
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            Full Scale Project
+                                            <br /> Developpement
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
                             </div>
-                            <div className="row">
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes b"></div>
-                                <div className="boxes"></div>
+                            <div className="row translate-x-[13rem]">
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            4
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            Smart Contract Code <br />
+                                            Review, Testing & <br />
+                                            Audit via Certik
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
                             </div>
-                            <div className="row">
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes b"></div>
-                                <div className="boxes"></div>
+                            <div className="row translate-x-[-4rem]">
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            5
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            Active Participant <br />
+                                            Formation, Vote and <br />
+                                            Selection
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
                             </div>
-                            <div className="row">
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes b"></div>
-                                <div className="boxes"></div>
-                                <div className="boxes"></div>
+                            <div className="row translate-x-[5rem]">
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    {" "}
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            6
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            BrickLayer Tenant <br />
+                                            Acquisition Service
+                                            <br />
+                                            and release 1st <br /> Partner Occupier
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            </div>
+                            <div className="row ">
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            7
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            Tax Qualification : <br />
+                                            Business Expense
+                                            <br />
+                                            Opportunities
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            </div>
+                            <div className="row translate-x-[10rem]">
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    {" "}
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            8
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            Genesis Asset Vote <br />
+                                            Proposal
+                                        </span>
+                                    </div>
+                                </div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            </div>
+                            <div className="row translate-x-[-5rem]">
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            9
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">BRICKS Token Issuance</span>
+                                    </div>
+                                </div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            </div>
+                            <div className="row translate-x-[7rem]">
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            10
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            Launch Commercial
+                                            <br />
+                                            Real Estate
+                                            <br />
+                                            Introduction
+                                            <br />
+                                            Program
+                                        </span>
+                                    </div>
+                                </div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            </div>
+                            <div className="row translate-x-[rem]">
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            11
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            Launch Brickworks
+                                            <br />
+                                            Staking Program
+                                        </span>
+                                    </div>
+                                </div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            </div>
+                            <div className="row translate-x-[8rem]">
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            12
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            Genesis Layer
+                                            <br />
+                                            Transaction
+                                            <br />
+                                            Completition &<br />
+                                            Trasnfer to
+                                            <br />
+                                            Treasury
+                                        </span>
+                                    </div>
+                                </div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            </div>
+                            <div className="row translate-x-[-7rem]">
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div className="boxes b">
+                                    <div className="flex gap-5 mt-4 ml-4">
+                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
+                                            13
+                                        </span>{" "}
+                                        {/* Added inline style for right margin */}
+                                        <span className="font-semibold">
+                                            Release 2nd Partner
+                                            <br />
+                                            Occupier
+                                        </span>
+                                    </div>
+                                </div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
                             </div>
                         </div>
 
