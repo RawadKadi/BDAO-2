@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import Image from "next/image";
 
 import Header from "../header-layout";
 import Footer from "../footer-layout"
