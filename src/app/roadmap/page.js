@@ -19,11 +19,13 @@ import "./roadmap.scss";
 export default function roadmap() {
     return (
         <>
-            <div className="main">
+            <div className="main overflow-x-hidden">
                 <div className="bg-texture">
                     <div className="bg-road">
                         <Header />
-                        <div className="title fmb text-[80px] text-center mt-14">ROADMAP</div>
+                        <div className="title fmb text-4xl sm:text-7xl text-center mt-14">
+                            ROADMAP
+                        </div>
                         <div className="bg-blur mt-8">
                             <div className="flex justify-center gap-6 py-4">
                                 <button className="bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2">
@@ -40,48 +42,66 @@ export default function roadmap() {
                         <br />
 
                         <div className="ccontainer w-full ">
-                            <div className="row translate-x-[-5rem]">
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className="boxes b border-2 border-white h-[362.44px] w-[623.37px] bg-[#E26E5D] mx-auto md:mx-0">
+                            <div className="row transform translate-x-[0rem] md:translate-x-[-5rem] lg:translate-x-[7rem]">
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div className="boxes b border-2 border-white  bg-[#E26E5D]">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            1
-                                        </span>
+                                        <span className="fmb">1</span>
                                         <span className="font-semibold">
                                             Formation of UAE <br /> Legal Entity
                                         </span>{" "}
                                         {/* Added font-semibold class */}
                                     </div>
                                 </div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
                             </div>
-                            <div className="row translate-x-[9rem]">
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className="boxes b">
+                            <div className="row transform translate-x-[-0rem] md:translate-x-[-6rem]">
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div className="boxes b border-2 border-white h-[362.44px] w-[623.37px] bg-[#E26E5D] mx-auto md:mx-0 md:text-center">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            2
-                                        </span>{" "}
+                                        <span className="fmb">2</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             Blockchain Grant <br /> Application
                                         </span>
                                     </div>
                                 </div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
                             </div>
-                            <div className="row translate-x-[0rem]">
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform translate-x-[0rem] md:translate-x-[0rem]">
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            3
-                                        </span>{" "}
+                                        <span className="fmb">3</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             Full Scale Project
@@ -89,17 +109,24 @@ export default function roadmap() {
                                         </span>
                                     </div>
                                 </div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
                             </div>
-                            <div className="row translate-x-[13rem]">
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform translate-x-[0rem] md:translate-x-[13rem]">
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            4
-                                        </span>{" "}
+                                        <span className="fmb">4</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             Smart Contract Code <br />
@@ -108,17 +135,25 @@ export default function roadmap() {
                                         </span>
                                     </div>
                                 </div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
                             </div>
-                            <div className="row translate-x-[-4rem]">
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform  md:translate-x-[-4rem]">
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            5
-                                        </span>{" "}
+                                        <span className="fmb">5</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             Active Participant <br />
@@ -127,18 +162,26 @@ export default function roadmap() {
                                         </span>
                                     </div>
                                 </div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
                             </div>
-                            <div className="row translate-x-[5rem]">
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform  md:translate-x-[5rem]">
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
                                 <div className="boxes b">
                                     {" "}
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            6
-                                        </span>{" "}
+                                        <span className="fmb">6</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             BrickLayer Tenant <br />
@@ -148,17 +191,25 @@ export default function roadmap() {
                                         </span>
                                     </div>
                                 </div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
                             </div>
-                            <div className="row ">
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform md:translate-x-[0rem]">
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            7
-                                        </span>{" "}
+                                        <span className="fmb">7</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             Tax Qualification : <br />
@@ -168,18 +219,26 @@ export default function roadmap() {
                                         </span>
                                     </div>
                                 </div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
                             </div>
-                            <div className="row translate-x-[10rem]">
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform  md:translate-x-[10rem]">
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
                                 <div className="boxes b">
                                     {" "}
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            8
-                                        </span>{" "}
+                                        <span className="fmb">8</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             Genesis Asset Vote <br />
@@ -187,32 +246,46 @@ export default function roadmap() {
                                         </span>
                                     </div>
                                 </div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
                             </div>
-                            <div className="row translate-x-[-5rem]">
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform  md:translate-x-[-5rem]">
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            9
-                                        </span>{" "}
+                                        <span className="fmb">9</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">BRICKS Token Issuance</span>
                                     </div>
                                 </div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
                             </div>
-                            <div className="row translate-x-[7rem]">
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform  md:translate-x-[7rem]">
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            10
-                                        </span>{" "}
+                                        <span className="fmb">10</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             Launch Commercial
@@ -225,17 +298,24 @@ export default function roadmap() {
                                         </span>
                                     </div>
                                 </div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
                             </div>
-                            <div className="row translate-x-[rem]">
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform  md:translate-x-[rem]">
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
+
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            11
-                                        </span>{" "}
+                                        <span className="fmb">11</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             Launch Brickworks
@@ -244,17 +324,22 @@ export default function roadmap() {
                                         </span>
                                     </div>
                                 </div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
                             </div>
-                            <div className="row translate-x-[8rem]">
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform md:translate-x-[8rem]">
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                                                <div className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}></div>
+
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            12
-                                        </span>{" "}
+                                        <span className="fmb">12</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             Genesis Layer
@@ -268,17 +353,21 @@ export default function roadmap() {
                                         </span>
                                     </div>
                                 </div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                                                <div className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}></div>
+
                             </div>
-                            <div className="row translate-x-[-7rem]">
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                            <div className="row transform md:translate-x-[-7rem]">
+                            <div className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}></div>
+
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
-                                        <span className="fmb" style={{ marginRight: "0.5rem" }}>
-                                            13
-                                        </span>{" "}
+                                        <span className="fmb">13</span>{" "}
                                         {/* Added inline style for right margin */}
                                         <span className="font-semibold">
                                             Release 2nd Partner
@@ -287,8 +376,11 @@ export default function roadmap() {
                                         </span>
                                     </div>
                                 </div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
-                                <div  className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                ></div>
+                                                                <div className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}></div>
+
                             </div>
                         </div>
 
