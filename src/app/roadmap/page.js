@@ -1,6 +1,3 @@
-import Header from "../layout/header-layout";
-import Footer from "../layout";
-
 import row1 from "@/constants/row1";
 import row2 from "@/constants/row2";
 import row3 from "@/constants/row3";
@@ -23,7 +20,6 @@ export default function roadmap() {
             <div className="main">
                 <div className="bg-texture">
                     <div className="bg-road">
-                        <Header />
                         <div className="title fmb text-[80px] text-center mt-14">ROADMAP</div>
                         <div className="bg-blur mt-8">
                             <div className="flex justify-center gap-6 py-4">
@@ -39,7 +35,7 @@ export default function roadmap() {
                             </div>
                         </div>
                         <br />
-                        <div className="grid grid-cols-5 gap-10 mt-14">
+                        <div className="grid grid-cols-5 gap-10 mt-14 pb-56">
                             {row1.map((item) => {
                                 return (
                                     <div className="translate border-2 border-white" key={item.id}>
@@ -135,7 +131,6 @@ export default function roadmap() {
                                 );
                             })}
                         </div>
-                        <Footer />
                     </div>
                 </div>
             </div>

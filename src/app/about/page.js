@@ -51,23 +51,21 @@ export default function About() {
         <>
             <div className="main">
                 <div className="bg-texture flex flex-col">
-                    <div className="lg:flex gap-12 lg:mx-20 justify-center mt-12">
-                        <div className="column-1 lg:block md:flex md:justify-around">
-                            <div className="flex mx-3">
-                                <div className="bg-[#E26E5D] border-2 border-white text-center w-full md:px-16 py-2">
+                    <div className="max-w-screen-xl lg:flex gap-12 lg:mx-auto p-4 mt-12">
+                        <div className="column-1 lg:block md:flex justify-between gap-6">
+                            <div className="flex">
+                                <div className="bg-[#E26E5D] border-2 border-white text-center w-full sm:px-14 py-2">
                                     <button
                                         className={activeLang === disclaimersEng ? "" : "text"}
                                         onClick={switchLang}
-                                        id="english"
                                     >
                                         <span className="fmb">Eng</span>
                                     </button>
                                 </div>
-                                <div className="bg-[#E26E5D] border-2 border-white fmb text-center w-full md:px-10 py-2">
+                                <div className="bg-[#E26E5D] border-2 border-white fmb text-center w-full sm:px-8 py-2">
                                     <button
                                         className={activeLang === disclaimersArabic ? "" : "text"}
                                         onClick={switchLang}
-                                        id="arabic"
                                     >
                                         <span className="fmb">Arabic</span>
                                     </button>
@@ -79,38 +77,38 @@ export default function About() {
                             >
                                 <div className="font-semibold mt-1">
                                     {activeLang.map((item) => (
-                                        <button
+                                        <div
                                             onClick={onButtonClick}
                                             key={item.id}
                                             data-id={item.id}
-                                            className="hover:bg-[#E26E5D] opacity-90 border-transparent py-2 w-full block"
+                                            className="hover:bg-[#E26E5D] opacity-90 border-transparent py-2 cursor-pointer"
                                         >
                                             <div
                                                 className={
                                                     activeLang === disclaimersEng
-                                                        ? "flex gap-5"
-                                                        : "flex gap-5 justify-end"
+                                                        ? "flex gap-2"
+                                                        : "flex gap-2 justify-end"
                                                 }
                                             >
-                                                <span
-                                                    className={`mr-4 ${
+                                                <div
+                                                    className={
                                                         activeLang === disclaimersEng
                                                             ? ""
                                                             : "order-2"
-                                                    }`}
+                                                    }
                                                 >
                                                     {item.id}
-                                                </span>
-                                                <span>{item.disclaimer}</span>
+                                                </div>
+                                                <div>{item.disclaimer}</div>
                                             </div>
-                                        </button>
+                                        </div>
                                     ))}
                                 </div>
                             </section>
-                            <section className="lg:hidden mx-3">
+                            <section className="lg:hidden">
                                 <select
                                     onChange={onChange}
-                                    className="bg-[#E26E5D] font-semibold p-2.5 rounded border-2 border-white w-full"
+                                    className="bg-[#E26E5D] font-semibold py-2.5 rounded border-2 border-white w-full"
                                 >
                                     {activeLang.map((item) => (
                                         <option value={item.id} key={item.id}>
@@ -123,7 +121,7 @@ export default function About() {
                                 </select>
                             </section>
                         </div>
-                        <div className="column-2 bg-opacity-80 relative bg-[#E26E5D] border-3 border-white mb-56 lg:block hidden">
+                        <div className="column-2 bg-opacity-80 relative bg-[#E26E5D] border-3 border-white mb-56 lg:block hidden w-[900px]">
                             <section className={`p-16 ${isFade ? "fade" : "show"}`}>
                                 <p className="number fmb text-[24px]">{activeEl.id}</p>
                                 <h1 className="title fmb text-[24px]">{activeEl.title}</h1>
@@ -132,8 +130,10 @@ export default function About() {
                             </section>
                         </div>
                     </div>
+
                     {/* Mobile version */}
-                    <div className="column-2 bg-opacity-80 relative bg-[#E26E5D] border-3 border-white mb-56 lg:hidden mx-9 mt-12">
+
+                    <div className="column-2 mx-4 bg-opacity-80 relative bg-[#E26E5D] border-3 border-white mb-56 lg:hidden mt-12">
                         <section className={`md:p-16 pt-9 pl-4 ${isFade ? "fade" : "show"}`}>
                             <p className="number fmb text-[20px]">
                                 {activeLang[selectedOption].id}

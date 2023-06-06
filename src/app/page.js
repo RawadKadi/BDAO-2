@@ -69,9 +69,8 @@ export default function Home() {
                             <br></br>
                             <br></br>
                             <br></br>
-                            <br></br>
                         </div>
-                        <div className="md:mt-6 mt-0">
+                        <div className="md:mt-6">
                             <div className="flex justify-center font-semibold fmi">
                                 <div className="vector1 relative"></div>
                                 <button className="btn border-2 border-white flex text-[16px] p-2 md:inline-flex hidden">
@@ -79,13 +78,13 @@ export default function Home() {
                                     <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
                                 </button>
                             </div>
-                            <div className="flex justify-center mt-24">
+                            <div className="flex justify-center mt-24 pb-56">
                                 <div className="box opacity-90 relative border-3 border-white text-center bg-[#E26E5D] h-[770px] sm:w-[700px] w-full mx-6">
                                     {/*Desktop design*/}
                                     <p className="title fmb text-[24px] mt-14 md:block hidden">
                                         Start laying $BRICKS
                                     </p>
-                                    <div className="mt-3 fmi font-semibold md:block hidden text-[16px]">
+                                    <div className="mt-3 font-semibold md:block hidden text-[16px]">
                                         <p>
                                             This platform provides our community with access to
                                             <br />

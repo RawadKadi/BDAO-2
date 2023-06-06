@@ -24,7 +24,7 @@ const Header = () => {
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 {/* Brand */}
                 <Link href="/" className="flex items-center">
-                    <Image className="" width={32} height={32} src="/B.svg" alt={""}></Image>
+                    <Image className="" width={32} height={32} src="/logos/B.svg" alt={""}></Image>
                 </Link>
 
                 <div className="flex md:order-2">
@@ -35,16 +35,15 @@ const Header = () => {
                 </div>
 
                 {/* Burger Button */}
-                <div className="flex  md:hidden">
+                <div className="flex md:hidden">
                     <button
                         data-collapse-toggle="navbar-sticky"
                         type="button"
                         className="inline-flex items-center p-2 text-sm text-white rounded-lg hover:bg-gray-100 hover:bg-opacity-25 focus:outline-none focus:ring-2 focus:ring-gray-200"
                         aria-controls="navbar-sticky"
-                        aria-expanded="false"
+                        aria-expanded="true"
                         onClick={toggleDropdown}
                     >
-                        <span className="sr-only">Open main menu</span>
                         <svg
                             className="w-6 h-6"
                             aria-hidden="true"
@@ -86,7 +85,7 @@ const Header = () => {
                         </li>
                         <li>
                             <a
-                                href="/ap"
+                                href="/Ap"
                                 className={`header-link  ${pathname === "/ap" ? "active" : ""}`}
                             >
                                 Ap
