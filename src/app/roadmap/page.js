@@ -28,13 +28,13 @@ export default function roadmap() {
                         </div>
                         <div className="bg-blur mt-8">
                             <div className="flex justify-center gap-6 py-4">
-                                <button className="bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2">
+                                <button className="bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2 w-32 text-sm sm:w-auto sm:text-base">
                                     Year 1
                                 </button>
-                                <button className="bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2">
+                                <button className="bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2 w-32 text-sm sm:w-auto sm:text-base">
                                     Year 2
                                 </button>
-                                <button className="bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2">
+                                <button className="bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2 w-32 text-sm sm:w-auto sm:text-base">
                                     Year 3
                                 </button>
                             </div>
@@ -335,7 +335,9 @@ export default function roadmap() {
                                 <div
                                     className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
                                 ></div>
-                                                                <div className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
 
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
@@ -356,11 +358,14 @@ export default function roadmap() {
                                 <div
                                     className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
                                 ></div>
-                                                                <div className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}></div>
-
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
                             </div>
                             <div className="row transform md:translate-x-[-7rem]">
-                            <div className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}></div>
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
 
                                 <div
                                     className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
@@ -379,8 +384,9 @@ export default function roadmap() {
                                 <div
                                     className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
                                 ></div>
-                                                                <div className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}></div>
-
+                                <div
+                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                ></div>
                             </div>
                         </div>
 
