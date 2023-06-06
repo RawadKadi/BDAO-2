@@ -28,6 +28,11 @@
 
     @apply text-center;
 
+    @apply md:hover:border-white;
+
+    @apply transition-all;
+    @apply duration-[150ms];
+
     &.active {
         @apply bg-white;
         @apply bg-opacity-25;
@@ -36,4 +41,3 @@
         @apply md:border-white;
     }
 }
-

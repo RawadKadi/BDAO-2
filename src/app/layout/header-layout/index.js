@@ -8,10 +8,11 @@ import Link from "next/link";
 
 import { usePathname } from "next/navigation";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
     const [isOpen, setOpen] = useState(false);
+    const [scrollY, setScrollY] = useState(0);
 
     const pathname = usePathname();
 
@@ -19,8 +20,26 @@ const Header = () => {
         setOpen(!isOpen);
     };
 
+    // check scroll amount
+    useEffect(() => {
+        function checkScroll() {
+            console.log(window.scrollY);
+            setScrollY(window.scrollY);
+        }
+
+        window.addEventListener("scroll", checkScroll);
+
+        return () => {
+            window.removeEventListener("scroll", checkScroll);
+        };
+    }, []);
+
     return (
-        <nav className="bg-[#D86F60] md:bg-[#F3B79D]  fixed w-full z-20 top-0 left-0 ">
+        <nav
+            className={`bg-[#D86F60] md:bg-transparent  fixed w-full z-20 top-0 left-0  ${
+                scrollY <= 100 ? "md:bg-transparent" : "md:bg-[#D86F60]"
+            } transition-colors duration-300`}
+        >
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 {/* Brand */}
                 <Link href="/" className="flex items-center">
