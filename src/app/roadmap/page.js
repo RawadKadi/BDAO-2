@@ -44,11 +44,11 @@ export default function roadmap() {
                         <div className="ccontainer w-full ">
                             <div className="row transform translate-x-[0rem] md:translate-x-[-5rem] lg:translate-x-[7rem]">
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"
                                 ></div>
 
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:block`}
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:block"
                                 ></div>
                                 <div className="boxes b border-2 border-white  bg-[#E26E5D]">
                                     <div className="flex gap-5 mt-4 ml-4">
@@ -60,19 +60,19 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"
                                 ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"
                                 ></div>
                             </div>
                             <div className="row transform translate-x-[-0rem] md:translate-x-[-6rem]">
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"
                                 ></div>
 
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"
                                 ></div>
                                 <div className="boxes b border-2 border-white h-[362.44px] w-[623.37px] bg-[#E26E5D] mx-auto md:mx-0 md:text-center">
                                     <div className="flex gap-5 mt-4 ml-4">
@@ -84,19 +84,19 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"
                                 ></div>
 
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"
                                 ></div>
                             </div>
                             <div className="row transform translate-x-[0rem] md:translate-x-[0rem]">
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"
                                 ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"
                                 ></div>
 
                                 <div className="boxes b">
@@ -110,18 +110,18 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"
                                 ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"
                                 ></div>
                             </div>
                             <div className="row transform translate-x-[0rem] md:translate-x-[13rem]">
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"
                                 ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"
                                 ></div>
 
                                 <div className="boxes b">
@@ -136,19 +136,19 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"
                                 ></div>
 
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"
                                 ></div>
                             </div>
                             <div className="row transform  md:translate-x-[-4rem]">
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"
                                 ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"
                                 ></div>
 
                                 <div className="boxes b">
@@ -163,20 +163,16 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                             </div>
                             <div className="row transform  md:translate-x-[5rem]">
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div className="boxes b">
                                     {" "}
@@ -192,20 +188,16 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                             </div>
                             <div className="row transform md:translate-x-[0rem]">
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
@@ -220,20 +212,16 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                             </div>
                             <div className="row transform  md:translate-x-[10rem]">
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div className="boxes b">
                                     {" "}
@@ -247,19 +235,15 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
                             </div>
                             <div className="row transform  md:translate-x-[-5rem]">
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
@@ -269,19 +253,15 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
                             </div>
                             <div className="row transform  md:translate-x-[7rem]">
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
@@ -299,19 +279,15 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
                             </div>
                             <div className="row transform  md:translate-x-[rem]">
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
@@ -325,19 +301,15 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
                             </div>
                             <div className="row transform md:translate-x-[8rem]">
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
@@ -356,20 +328,16 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
                             </div>
                             <div className="row transform md:translate-x-[-7rem]">
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
 
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div className="boxes b">
                                     <div className="flex gap-5 mt-4 ml-4">
                                         <span className="fmb">13</span>{" "}
@@ -382,11 +350,9 @@ export default function roadmap() {
                                     </div>
                                 </div>
                                 <div
-                                    className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
-                                ></div>
+                                    className="boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block"                                ></div>
                                 <div
-                                    className={`boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block`}
-                                ></div>
+                                    className="boxes border-2 border-white bg-opacity-30 hidden md:hidden lg:block"                                ></div>
                             </div>
                         </div>
 
