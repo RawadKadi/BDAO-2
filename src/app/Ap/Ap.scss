@@ -1,0 +1,14 @@
+.bg-blur1::after{
+    top: 3%;
+    filter: blur(140px);
+}
+
+.bg-blur2::after{
+    top: 90%;
+    right: -10%;
+}
+
+.bg-blur2::before{
+    filter: blur(150px);
+    top: 200%;
+}

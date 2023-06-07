@@ -54,7 +54,7 @@ export default function About() {
                     <div className="max-w-screen-xl lg:flex gap-12 lg:mx-auto p-4 mt-12">
                         <div className="column-1 lg:block md:flex justify-between gap-6">
                             <div className="flex">
-                                <div className="bg-[#E26E5D] border-2 border-white text-center w-full sm:px-14 py-2">
+                                <div className="bg-[#E26E5D] border-2 border-white text-center w-full xl:px-8 sm:px-14 py-2 bg-blur1">
                                     <button
                                         className={activeLang === disclaimersEng ? "" : "text"}
                                         onClick={switchLang}
@@ -81,7 +81,7 @@ export default function About() {
                                             onClick={onButtonClick}
                                             key={item.id}
                                             data-id={item.id}
-                                            className="hover:bg-[#E26E5D] opacity-90 border-transparent py-2 cursor-pointer"
+                                            className="hover:bg-[#E26E5D] opacity-90 border-transparent py-2 cursor-pointer xl:w-[340px]"
                                         >
                                             <div
                                                 className={
@@ -90,7 +90,7 @@ export default function About() {
                                                         : "flex gap-2 justify-end"
                                                 }
                                             >
-                                                <div
+                                                <span
                                                     className={
                                                         activeLang === disclaimersEng
                                                             ? ""
@@ -98,8 +98,8 @@ export default function About() {
                                                     }
                                                 >
                                                     {item.id}
-                                                </div>
-                                                <div>{item.disclaimer}</div>
+                                                </span>
+                                                <span>{item.disclaimer}</span>
                                             </div>
                                         </div>
                                     ))}
@@ -121,8 +121,8 @@ export default function About() {
                                 </select>
                             </section>
                         </div>
-                        <div className="column-2 bg-opacity-80 relative bg-[#E26E5D] border-3 border-white mb-56 lg:block hidden w-[900px]">
-                            <section className={`p-16 ${isFade ? "fade" : "show"}`}>
+                        <div className="column-2 bg-opacity-80 relative bg-[#E26E5D] border-3 border-white mb-72 lg:block hidden xl:w-[900px] xl:min-h-[750px] w-full">
+                            <section className={`p-16 bg-blur2 ${isFade ? "fade" : "show"}`}>
                                 <p className="number fmb text-[24px]">{activeEl.id}</p>
                                 <h1 className="title fmb text-[24px]">{activeEl.title}</h1>
                                 {activeEl.content()}

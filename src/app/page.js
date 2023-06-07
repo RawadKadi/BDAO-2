@@ -9,9 +9,9 @@ export default function Home() {
         <>
             <div className="main">
                 <div className="bg-texture">
-                    <p className="text-center lg:text-[80px] md:text-[50px] text-[32px] fmb">
+                    <div className="text-center lg:text-[80px] md:text-[50px] text-[32px] pt-6 fmb bg-blur1">
                         BRICKLAYER
-                    </p>
+                    </div>
                     <div className="text-center text-[20px] md:block hidden font-semibold fmi">
                         <p>
                             We are proud to present Bricklayer, the 'Real Estate' DAO.
@@ -36,13 +36,6 @@ export default function Home() {
                     </div>
                     <section className="bg-img">
                         <div className="flex justify-center mt-7">
-                            {/* <Image
-            className=''
-            width={510}
-            height={500}
-            src="/b-orange 1.png"
-            alt=''>
-            </Image> */}
                             <model-viewer
                                 src="/media/models/logo.gltf"
                                 loading="eager"
@@ -71,17 +64,16 @@ export default function Home() {
                             <br></br>
                         </div>
                         <div className="md:mt-6">
-                            <div className="flex justify-center font-semibold fmi">
-                                <div className="vector1 relative"></div>
+                            <div className="flex justify-center font-semibold fmi bg-blur2">
                                 <button className="btn border-2 border-white flex text-[16px] p-2 md:inline-flex hidden">
                                     <span>Launch the app</span>
                                     <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
                                 </button>
                             </div>
                             <div className="flex justify-center mt-24 pb-56">
-                                <div className="box opacity-90 relative border-3 border-white text-center bg-[#E26E5D] h-[770px] sm:w-[700px] w-full mx-6">
+                                <div className="box relative border-3 border-white text-center h-[770px] sm:w-[700px] w-full mx-6">
                                     {/*Desktop design*/}
-                                    <p className="title fmb text-[24px] mt-14 md:block hidden">
+                                    <p className="title fmb text-[24px] mt-14 md:block hidden vector1">
                                         Start laying $BRICKS
                                     </p>
                                     <div className="mt-3 font-semibold md:block hidden text-[16px]">
@@ -103,34 +95,25 @@ export default function Home() {
                                     </div>
 
                                     {/*Mobile design*/}
-                                    <div className="title text-[24px] md:hidden mt-12">
+                                    <div className="title text-[24px] md:hidden mt-12 vector1">
                                         <p className="fmb">Start laying</p>
                                         <p className="fmb">$BRICKS</p>
                                     </div>
                                     <div className="mt-3 font-semibold md:hidden block text-[16px]">
                                         <p>
                                             This platform provides our community
-                                            <br />
                                             with access to institutional-grade
-                                            <br />
                                             occupiers and builds wealth through
-                                            <br />
                                             sophisticated real estate
-                                            <br />
                                             transactions fueled by digital asset
-                                            <br />
                                             growth. An original and simple
-                                            <br />
                                             approach which prioritizes smart
-                                            <br />
                                             hedging strategies, consistent
-                                            <br />
                                             dividend generation, and creating
-                                            <br />
                                             capital value appreciation.
                                         </p>
                                     </div>
-                                    <div className="flex video justify-center md:mt-16 mt-6 mx-7 h-[260px]">
+                                    <div className="flex video justify-center md:mt-16 mt-6 mx-7 my-2 h-[200px]">
                                         <Image
                                             width={45}
                                             height={45}

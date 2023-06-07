@@ -351,7 +351,7 @@ const disclaimersArabic = [
                     بشكل عام، هناك ثلاث مكونات أساسية لنظامنا البيئي سيتم استكشافها بشكل أكبر:
                     <br />
                     <br />
-                    <ul>
+                    <ul className="disc">
                         <li>العقارات</li>
                         <li>مجمع العملات المشفرة</li>
                         <li>فرص إعادة التمويل</li>
@@ -413,7 +413,7 @@ const disclaimersArabic = [
                     فئات، 10000 Bricklayers، و1,000 وسيط، و300 مطور، و10 مؤسس. سيتم منح الامتيازات
                     التالية لكل رمز غير قابل للاستبدال عبر عقد ذكي:
                     <br />
-                    <ul>
+                    <ul className="disc">
                         <li>10000 من رموز Bricklayers</li>
                         <li>1،000 وسيط</li>
                         <li>300 مطور</li>
@@ -457,7 +457,7 @@ const disclaimersArabic = [
                     الأول على فرصة DAO Clubhouse ذات الرمز المميز المرتقب للغاية ويخضعون لعناصر
                     الرموز غير القابلة للاستبدال مفاجئة للإسقاط الجوي على Brickworks Tapestry.
                     <br />
-                    <ul>
+                    <ul className="disc">
                         <li>10000 من الرموز غير القابلة للاستبدال في Bricklayer</li>
                         <li>1,000 من الرموز غير القابلة للاستبدال شهريًا متاحة للشراء</li>
                     </ul>
@@ -512,7 +512,7 @@ const disclaimersArabic = [
                     سيحصل حاملو الرموز الذين يشاركون في عملات BRICKS الخاصة بهم على منصة Brickworks
                     Tapestry لمدة 12 شهرًا على مكافأة ولاء في شكل رموز BRICKS الجديدة:
                     <br />
-                    <ul>
+                    <ul className="disc">
                         <li>عوائد الرهان الممتاز</li>
                         <li>مكاتب الوسيط: عوائد حصة الشركات</li>
                         <li>عناصر Tapestry بديلة: عوائد Staking القياسية</li>
@@ -623,7 +623,7 @@ const disclaimersArabic = [
                         <br />
                         <span className="italic">سيكون هناك 6 مستويات من أجور المشاركون: </span>
                         <br />
-                        <ul>
+                        <ul className="disc">
                             <li>المستوى 1 - 500 ألف BRICKS (50 ألف بريك سنويًا)</li>
                             <li>المستوى 2 - مليون BRICKS (100 ألف بريك سنويًا)</li>
                             <li>الطبقة 3 - 1.5 مليون BRICKS (150 ألف بريك سنويًا)</li>
@@ -632,7 +632,7 @@ const disclaimersArabic = [
                             <li>لطبقة 6 - 3 مليون بريك (300 ألف بريك سنويًا)</li>
                         </ul>
                         <span className="italic">أمثلة على مناصب المشاركون (25) تشمل:</span>
-                        <ul>
+                        <ul className="disc">
                             <li>
                                 الاستشارات العقارية × 4، استشارات التشفير × 2، مسرع Sharkaroo × 1
                                 (طلب المنحة)

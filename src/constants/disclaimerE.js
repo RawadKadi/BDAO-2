@@ -345,7 +345,7 @@ const disclaimersEng = [
                     Overall, there are three core components of our ecosystem that will be explored
                     further:
                     <br />
-                    <ul>
+                    <ul className="disc">
                         <li>Real Estate</li>
                         <li>Crypto-Pool</li>
                         <li>ReFi Opportunities</li>
@@ -401,7 +401,7 @@ const disclaimersEng = [
                     holder. Furthermore, the NFT collection will be divided into three categories,
                     10,000 Bricklayers, 1,000 Brokers, 300 OG Developers and 10 Founders. The
                     following privileges will be assigned to each NFT via smart contract:
-                    <ul>
+                    <ul className="disc">
                         <li>10,000 Bricklayers</li>
                         <li>1,000 Brokers</li>
                         <li>300 OG Developers</li>
@@ -439,7 +439,7 @@ const disclaimersEng = [
                     Bricklayer NFT holders will have Right of First Offer on the highly anticipated
                     tokenized DAO Clubhouse opportunity and be subject to surprise NFT airdrop items
                     on the Brickworks Tapestry.
-                    <ul>
+                    <ul className="disc">
                         <li>10,000 Bricklayer NFTs</li>
                         <li>10,000 Bricklayer NFTs</li>
                     </ul>
@@ -490,7 +490,7 @@ const disclaimersEng = [
                     12-month cycles will receive a loyalty reward in the form of new BRICKS tokens:
                     <br />
                     <br />
-                    <ul>
+                    <ul className="disc">
                         <li>OG Famous Buildings: Premium Staking Returns</li>
                         <li>Broker Office Buildings: Corporate Staking Returns</li>
                         <li>Alternative Tapestry Items: Standard Staking Returns</li>
@@ -592,7 +592,7 @@ const disclaimersEng = [
                         <br /> <br />
                         <span className="italic">There will be 6 levels of AP remuneration:</span>
                         <br />
-                        <ul>
+                        <ul className="disc">
                             <li>Tier 1 – 500k BRICKS (50k BRICKS annually)</li>
                             <li>Tier 2 – 1M BRICKS (100k BRICKS annually)</li>
                             <li>Tier 3 – 1.5M BRICKS (150k BRICKS annually)</li>
@@ -603,7 +603,7 @@ const disclaimersEng = [
                         <br /> <br />
                         <span className="italic">There will be 6 levels of AP remuneration:</span>
                         <br />
-                        <ul>
+                        <ul className="disc">
                             <li>Real Estate Consultancy x 4</li>
                             <li>Crypto Consultancy x 2</li>
                             <li>Legal Advisor x 1</li>
