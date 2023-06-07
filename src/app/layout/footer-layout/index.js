@@ -7,9 +7,9 @@ const { doll } = styles;
 export default function Footer() {
     return (
         <footer>
-            <div className="footer relative">
+            <div className="footer relative ">
                 <Image
-                    className={`ml-32 absolute bottom-[100%] ${doll}`}
+                    className={`ml-32 absolute bottom-[100%] `}
                     width={103}
                     height={162}
                     src="/footer/little-man.png"
