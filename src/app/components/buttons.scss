@@ -1,0 +1,51 @@
+#contact-button {
+    position: absolute;
+    overflow: hidden;
+    height: 54px;
+    width: 165px;
+    text-align: right;
+ transition: 0.2s ease-in-out;
+
+  
+    
+}
+#contact-button:hover {
+       height: 44px;
+    width: 154px;
+    margin-top: 10px;
+}
+#contact-button:hover p {
+        left: 0;
+   bottom: 0px;
+   color:#FF6541;
+    border: 1px solid #FF6541;
+}
+#contact-button p  {
+      font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    /* line-height: 160%; */
+    color: #E5E0DD;
+    z-index: 1;
+    padding: 12px 0;
+    
+    cursor: pointer;
+    position: absolute;
+    left: 11px;
+   bottom: 10px;
+    border: 2px solid #E5E0DD;
+    height: 44px;
+    display: inline-block;
+    transition: 0.2s ease-in-out;
+    width: 154px;
+    text-align: center;
+
+}
+
+#contact-button img {
+    position: absolute;
+   left: 1px;
+    bottom: 1px;
+  
+}

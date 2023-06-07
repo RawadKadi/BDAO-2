@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { useRouter } from "next/navigation";
-
+import Button from "./components/button";
 const Header = () => {
     const [isOpen, setOpen] = React.useState(false);
     const router = useRouter();
@@ -60,10 +60,7 @@ const Header = () => {
                 </div>
 
                 <div className="">
-                    <button className="p-2 flex relative text-[14px] font-semibold border-2 border-white py-3">
-                        <span>Leave a note</span>
-                        <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
-                    </button>
+                    <Button />
                 </div>
                 <div onClick={toggleDropdown} className="md:hidden cursor-pointer">
                     <Image
