@@ -60,7 +60,7 @@ const Header = () => {
                 </div>
 
                 <div className="">
-                    <Button />
+                    <Button buttonText="Leave a note"/>
                 </div>
                 <div onClick={toggleDropdown} className="md:hidden cursor-pointer">
                     <Image

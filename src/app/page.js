@@ -3,10 +3,9 @@
 /* eslint-disable spaced-comment */
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-
+import Button from "./components/button";
 import Header from "./header-layout";
 import Footer from "./footer-layout";
-
 export default function Home() {
     return (
     <>
@@ -21,7 +20,7 @@ export default function Home() {
             We are proud to present Bricklayer, the 'Real Estate' DAO.
             <br />
             A truly unique project on the blockchain underpinned by
-            <br />
+            <br /> 
             the safest of asset classes
           </p>
         </div>
@@ -56,10 +55,9 @@ export default function Home() {
           <div className='md:mt-6 mt-0'>
             <div className='flex justify-center font-semibold fmi'>
               <div className="vector1 relative"></div>
-              <button className='btn border-2 border-white flex text-[16px] p-2 md:inline-flex hidden'>
-                  <span>Launch the app</span>
-                  <img width={18} className='ml-3 mt-1' src="/Arrow 1.svg"/>
-              </button>
+              <Button buttonText="Launch the app"  />
+
+
             </div>
             <div className='flex justify-center mt-24'>
               <div className='box opacity-90 relative border-3 border-white text-center bg-[#E26E5D] h-[770px] sm:w-[700px] w-full mx-6'>
