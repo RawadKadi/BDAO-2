@@ -10,6 +10,8 @@ import { usePathname } from "next/navigation";
 
 import { useEffect, useState } from "react";
 
+import Button from "@/app/components/button";
+
 const Header = () => {
     const [isOpen, setOpen] = useState(false);
     const [scrollY, setScrollY] = useState(0);
@@ -47,10 +49,14 @@ const Header = () => {
                 </Link>
 
                 <div className="flex md:order-2">
-                    <button className="p-2 flex relative text-[14px] font-semibold border-2 border-white py-3">
+                    {/* <button className="p-2 flex relative text-[14px] font-semibold border-2 border-white py-3">
                         <span>Leave a note</span>
                         <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
-                    </button>
+                    </button> */}
+                    <Button>
+                        <span>WHAAAAAAAAAAAAAAT WHATAGATA PITUS BERRY</span>
+                        <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
+                    </Button>
                 </div>
 
                 {/* Burger Button */}
