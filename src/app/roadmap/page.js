@@ -349,7 +349,7 @@ export default function roadmap() {
                             <div
                                 className={`boxes border-2 border-white h-[362.44px] w-[623.37px] bg-opacity-30 hidden md:block`}
                             ></div>
-                            <div className="boxes b">
+                            <div className="boxes b mb-56">
                                 <div className="flex gap-5 mt-4 ml-4">
                                     <span className="fmb">13</span>{" "}
                                     {/* Added inline style for right margin */}
