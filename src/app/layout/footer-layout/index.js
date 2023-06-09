@@ -1,8 +1,8 @@
 import Image from "next/image";
 
-import styles from "./footer.module.scss";
+// import styles from "./footer.module.scss";
 
-const { doll } = styles;
+// const { doll } = styles;
 
 export default function Footer() {
     return (
