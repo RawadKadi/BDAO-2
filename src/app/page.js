@@ -62,8 +62,8 @@ export default function Home() {
                 </div>
                 <div className="md:mt-6">
                     <div className="flex justify-center font-semibold fmi bg-blur2">
-                        <button className="btn border-2 border-white flex text-[16px] p-2 md:inline-flex hidden">
-                            <span>Launch the app</span>
+                        <button className="button3D  md:inline-flex hidden">
+                            <span className="text-[16px] has-te">Launch the app</span>
                             <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
                         </button>
                     </div>
@@ -110,8 +110,8 @@ export default function Home() {
                                 <Image width={45} height={45} src="/Ellipse 10.svg" alt=""></Image>
                             </div>
                             <div className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10">
-                                <button className="border-2 border-white flex text-[16px] p-2 md:inline-flex hidden">
-                                    Launch the app
+                                <button className="button3D  md:inline-flex hidden">
+                                    <span className="text-[16px] has-te">Launch the app</span>
                                     <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
                                 </button>
                             </div>

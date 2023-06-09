@@ -10,8 +10,6 @@ import { usePathname } from "next/navigation";
 
 import { useEffect, useState } from "react";
 
-import Button from "@/app/components/button";
-
 const Header = () => {
     const [isOpen, setOpen] = useState(false);
     const [scrollY, setScrollY] = useState(0);
@@ -44,23 +42,22 @@ const Header = () => {
         >
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 {/* Brand */}
-                <Link href="/" className="flex items-center">
+                <Link href="/" className="flex items-center md:flex-1">
                     <Image className="" width={32} height={32} src="/logos/B.svg" alt={""}></Image>
                 </Link>
 
-                <div className="flex md:order-2">
-                    {/* <button className="p-2 flex relative text-[14px] font-semibold border-2 border-white py-3">
-                        <span>Leave a note</span>
-                        <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
-                    </button> */}
-                    <Button>
-                        <span>WHAAAAAAAAAAAAAAT WHATAGATA PITUS BERRY</span>
-                        <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
-                    </Button>
+                {/* button */}
+                <div className="flex md:order-2 md:flex-1 md:justify-end">
+                    <a className="button3D" href="mailto:inquiries@bricklayerdao.xyz">
+                        <div className="flex">
+                            <span className="text-white font-medium">Leave a note</span>
+                            <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
+                        </div>
+                    </a>
                 </div>
 
                 {/* Burger Button */}
-                <div className="flex md:hidden">
+                <div className="flex md:hidden md:flex-1 md:justify-end">
                     <button
                         data-collapse-toggle="navbar-sticky"
                         type="button"
@@ -84,8 +81,10 @@ const Header = () => {
                         </svg>
                     </button>
                 </div>
+
+                {/* link */}
                 <div
-                    className={`header-menu items-center justify-between w-full md:flex md:w-auto md:order-1 ${
+                    className={`md:flex-1 header-menu items-center justify-between w-full md:flex md:w-auto md:order-1 ${
                         isOpen ? "active" : ""
                     }`}
                     id="navbar-sticky"
@@ -127,47 +126,7 @@ const Header = () => {
                             </a>
                         </li>
                     </ul>
-                    {/* <Link
-                        href="/"
-                        className="ml-12 border-b border-transparent hover:border-white hover:border-b-2 pb-3"
-                    >
-                        Home
-                    </Link>
-                    <Link
-                        href="/about"
-                        className="ml-12 border-b border-transparent hover:border-white hover:border-b-2 pb-3"
-                    >
-                        About
-                    </Link>
-                    <Link
-                        href="/ap"
-                        className="ml-12 border-b border-transparent hover:border-white hover:border-b-2 pb-3"
-                    >
-                        Ap
-                    </Link>
-                    <Link
-                        href="/roadmap"
-                        className="ml-12 border-b border-transparent hover:border-white hover:border-b-2 pb-3"
-                    >
-                        RoadMap
-                    </Link> */}
                 </div>
-
-                {/* <div className="">
-                    <button className="p-2 flex relative text-[14px] font-semibold border-2 border-white py-3">
-                        <span>Leave a note</span>
-                        <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
-                    </button>
-                </div>
-                <div onClick={toggleDropdown} className="md:hidden cursor-pointer">
-                    <Image
-                        className=""
-                        width={30}
-                        height={30}
-                        src="/tabler-icon-menu-2.svg"
-                        alt=""
-                    ></Image>
-                </div> */}
             </div>
         </nav>
     );

@@ -1,0 +1,71 @@
+%test {
+    position: absolute;
+    content: "";
+    transition: all 100ms;
+}
+
+.button3D {
+    position: relative;
+
+    padding: 8px 1rem;
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+    transition: all 100ms;
+
+    // background-color: #f0b69a;
+    border: 1px solid white;
+    box-sizing: border-box;
+
+    $w: 8px;
+    $sk: -45deg;
+
+    margin-bottom: $w;
+    margin-left: $w;
+
+    &::before {
+        @extend %test;
+        top: 100%;
+        right: 3px;
+
+        height: $w;
+        width: calc(100% + 1px);
+
+        border: 1px solid white;
+
+        transform: skewX($sk);
+    }
+
+    &::after {
+        @extend %test;
+
+        right: 100%;
+        top: 3px;
+
+        height: calc(100% + 1px);
+        width: $w;
+        border: 1px solid white;
+        transform: skewY($sk);
+    }
+
+    &:active {
+        margin-right: $w;
+        margin-top: $w;
+
+        margin-bottom: 0;
+        margin-left: 0;
+
+        &::before {
+            // bottom: -5px;
+            height: 0px;
+            right: 0px;
+        }
+
+        &::after {
+            // right: -5px;
+            top: -1px;
+            width: 0px;
+            // bottom: -3px;
+        }
+    }
+}
