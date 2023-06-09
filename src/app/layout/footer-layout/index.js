@@ -19,14 +19,14 @@ export default function Footer() {
                     className="sm:block hidden"
                     width={2000}
                     height={700}
-                    src="/footer/Group 25.png"
+                    src="/footer/walld.png"
                     alt=""
                 ></Image>
                 <Image
                     className="sm:hidden block"
                     width={768}
                     height={50}
-                    src="/footer/Group 146.jpg"
+                    src="/footer/wallm.jpg"
                     alt=""
                 ></Image>
                 <div className="socials bg-[#242424] py-4 flex justify-between">
