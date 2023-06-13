@@ -3,7 +3,7 @@
 /* eslint-disable spaced-comment */
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-
+import "./page.scss"
 export default function Home() {
     return (
         <section>
@@ -106,8 +106,8 @@ export default function Home() {
                                     capital value appreciation.
                                 </p>
                             </div>
-                            <div className="flex video justify-center md:mt-16 mt-6 mx-7 my-2 h-[200px]">
-                                <Image width={45} height={45} src="/Ellipse 10.svg" alt=""></Image>
+                            <div className="flex video justify-center md:mt-16 mt-6 mx-7 my-2 h-[300px]" style={{cursor:"pointer"}}>
+                                <Image width={45} height={45} src="/Ellipse 10.svg" alt="" ></Image>
                             </div>
                             <div className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10">
                                 <button className="button3D  md:inline-flex hidden">

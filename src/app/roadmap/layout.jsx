@@ -2,7 +2,6 @@ import Script from "next/script";
 import { Inter } from "next/font/google";
 
 import Header from "../layout/header-layout";
-import Footer from "../layout/footer-layout";
 
 import "../layout/header-layout/header.scss";
 import "@/scss/globals.scss";
@@ -36,7 +35,7 @@ export default function RootLayout({ children }) {
                     </div>
                 </div>
             </body>
-            <Footer/>
+            
         </html>
     )
 }

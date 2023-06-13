@@ -44,14 +44,14 @@ export default function Footer() {
                             width={18}
                             height={16}
                             alt=""
-                            src="/footer/linkedin.svg"
+                            src="https://www.linkedin.com/company/bricklayerdao/about/ "
                         ></Image>
                         <Image
                             className=""
                             width={18}
                             height={16}
                             alt=""
-                            src="/footer/twitter.svg"
+                            src="https://twitter.com/BricklayerDao "
                         ></Image>
                     </div>
                 </div>
