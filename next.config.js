@@ -11,8 +11,7 @@ module.exports = {
           },
         ],
       });
-      config.optimizeFonts = false; // Disable font optimization
-
+  
       return config;
     },
   };
