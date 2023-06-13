@@ -31,28 +31,46 @@ export default function Footer() {
                 ></Image>
                 <div className="socials bg-[#242424] py-4 flex justify-between">
                     <h1 className="font-medium text-[20px] ml-12">@2023 BrickLayer</h1>
-                    <div className="font-medium text[20px] flex mr-12">
+                    <div className="font-medium text[20px] flex mr-12" style={{alignItems:"center"}}>
+                    <a
+                            href="https://t.me/+tU7KlgQHnSk3ZWNk"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                         <Image
                             className="mr-6"
-                            width={18}
-                            height={16}
+                            width={20}
+                            height={20}
                             alt=""
                             src="/footer/share.svg"
                         ></Image>
-                        <Image
-                            className="mr-6"
-                            width={18}
-                            height={16}
-                            alt=""
-                            src="https://www.linkedin.com/company/bricklayerdao/about/ "
-                        ></Image>
-                        <Image
-                            className=""
-                            width={18}
-                            height={16}
-                            alt=""
-                            src="https://twitter.com/BricklayerDao "
-                        ></Image>
+                        </a>
+                         <a
+                            href="https://www.linkedin.com/company/bricklayerdao/about/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Image
+                                className="mr-6"
+                                width={20}
+                                height={20}
+                                alt=""
+                                src="/footer/linkedin.svg"
+                            ></Image>
+                        </a>
+                        <a
+                            href="https://twitter.com/BricklayerDao "
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Image
+                                className=""
+                                width={20}
+                                height={20}
+                                alt=""
+                                src="/footer/twitter.svg"
+                            ></Image>
+                        </a>
                     </div>
                 </div>
             </div>
