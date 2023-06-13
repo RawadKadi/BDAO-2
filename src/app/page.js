@@ -3,7 +3,7 @@
 /* eslint-disable spaced-comment */
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import "./page.scss"
+import "./page.scss";
 export default function Home() {
     return (
         <section>
@@ -35,7 +35,7 @@ export default function Home() {
             <section className="bg-img">
                 <div className="flex justify-center mt-7">
                     <model-viewer
-                        src="/media/models/logo.gltf"
+                        src="/media/models/brickLogo.glb"
                         loading="eager"
                         auto-rotate
                         camera-controls
@@ -68,7 +68,10 @@ export default function Home() {
                         </button>
                     </div>
                     <div className="flex justify-center mt-24 pb-56">
-                        <div className="box relative border-3 border-white text-center h-[770px] sm:w-[700px] w-full mx-6">
+                        <div
+                            className="box relative border-3 border-white text-center h-[900px] sm:w-[700px] w-full mx-6"
+                            style={{ padding: "70px" }}
+                        >
                             {/*Desktop design*/}
                             <p className="title fmb text-[24px] mt-14 md:block hidden vector1">
                                 Start laying $BRICKS
@@ -106,8 +109,36 @@ export default function Home() {
                                     capital value appreciation.
                                 </p>
                             </div>
-                            <div className="flex video justify-center md:mt-16 mt-6 mx-7 my-2 h-[300px]" style={{cursor:"pointer"}}>
-                                <Image width={45} height={45} src="/Ellipse 10.svg" alt="" ></Image>
+
+                            <div
+                                className="flex video justify-center md:mt-16 mt-6 mx-7 my-2 h-[300px]"
+                                style={{ cursor: "pointer", position: "relative",borderRadius:"5px" }}
+                            >
+                                <Image width={45} height={45} src="/Ellipse 10.svg" alt="" />
+                                <Image
+                                    src="/shovel.png"
+                                    width={175}
+                                    height={175}
+                                    alt=""
+                                    style={{
+                                        position: "absolute",
+                                        left: -65,
+                                        bottom: -55,
+                                        zIndex: 1,
+                                    }}
+                                />
+                                <Image
+                                    src="/brick.png"
+                                    width={175}
+                                    height={175}
+                                    alt=""
+                                    style={{
+                                        position: "absolute",
+                                        top: 30,
+                                        right: -80,
+                                        zIndex: 0,
+                                    }}
+                                />
                             </div>
                             <div className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10">
                                 <button className="button3D  md:inline-flex hidden">
