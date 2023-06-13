@@ -112,7 +112,11 @@ export default function Home() {
 
                             <div
                                 className="flex video justify-center md:mt-16 mt-6 mx-7 my-2 h-[300px]"
-                                style={{ cursor: "pointer", position: "relative",borderRadius:"5px" }}
+                                style={{
+                                    cursor: "pointer",
+                                    position: "relative",
+                                    borderRadius: "5px",
+                                }}
                             >
                                 <Image width={45} height={45} src="/Ellipse 10.svg" alt="" />
                                 <Image
