@@ -1,8 +1,10 @@
+"use client";
 import Script from "next/script";
 
 import Header from "./layout/header-layout";
 import Footer from "./layout/footer-layout";
-import Link from "next/link";
+
+import { ibm, ps2p } from "./fonts";
 
 import "./layout/header-layout/header.scss";
 import "@/scss/globals.scss";
@@ -21,7 +23,16 @@ export default function RootLayout({ children }) {
                     src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"
                     type="module"
                 />
-                <Link rel="icon" href="../../public/favicon.ico" />
+                {/* <Link rel="icon" href="../../public/favicon.ico" /> */}
+                <style jsx global>{`
+                    html {
+                        font-family: ${ibm.style.fontFamily};
+                    }
+
+                    .fmb {
+                        font-family: ${ps2p.style.fontFamily};
+                    }
+                `}</style>
             </head>
 
             <body>
