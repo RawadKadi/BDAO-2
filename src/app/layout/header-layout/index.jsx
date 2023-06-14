@@ -90,39 +90,39 @@ const Header = () => {
                 >
                     <ul className="flex flex-col md:flex-row mt-4 md:mt-0 font-semibold  md:gap-x-16 md:mx-auto space-y-8 md:space-y-0 relative ">
                         <li>
-                            <a
+                            <Link
                                 href="/"
                                 className={`header-link  ${pathname === "/" ? "active" : ""}`}
                             >
                                 Home
-                            </a>
+                            </Link>
                         </li>
 
                         <li>
-                            <a
+                            <Link
                                 href="/about"
                                 className={`header-link  ${pathname === "/about" ? "active" : ""}`}
                             >
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="/Ap"
                                 className={`header-link  ${pathname === "/ap" ? "active" : ""}`}
                             >
                                 Ap
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="/roadmap"
                                 className={`header-link  ${
                                     pathname === "/roadmap" ? "active" : ""
                                 }`}
                             >
                                 RoadMap
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
