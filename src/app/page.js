@@ -113,11 +113,7 @@ export default function Home() {
 
                             <div
                                 className="flex video justify-center md:mt-16 mt-6 mx-7 my-2 h-[300px]"
-                                style={{
-                                    cursor: "pointer",
-                                    position: "relative",
-                                    borderRadius: "5px",
-                                }}
+                                style={{ cursor: "pointer", position: "relative",borderRadius:"5px" }}
                             >
                                 <Image width={45} height={45} src="/Ellipse 10.svg" alt="" />
                                 <Image
@@ -146,7 +142,7 @@ export default function Home() {
                                 />
                             </div>
                             <div className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10">
-                                <button className="button3D  md:inline-flex hidden">
+                                <button className="button3D  md:inline-flex " style={{width:"200px"}}>
                                     <span className="text-[16px] has-te">Launch the app</span>
                                     <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
                                 </button>
