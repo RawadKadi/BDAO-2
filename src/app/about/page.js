@@ -52,22 +52,22 @@ export default function About() {
             <div className="max-w-screen-xl lg:flex gap-12 lg:mx-auto p-4 mt-12">
                 <div className="column-1 lg:block md:flex justify-between gap-6">
                     <div className="flex">
-                        <div className="bg-[#E26E5D] border-2 border-white text-center w-full xl:px-8 sm:px-14 py-2 bg-blur1">
+                        {/* <div className="bg-[#E26E5D] border-2 border-white text-center w-full xl:px-8 sm:px-14 py-2 bg-blur1">
                             <button
                                 className={activeLang === disclaimersEng ? "" : "text"}
                                 onClick={switchLang}
                             >
                                 <span className="fmb">Eng</span>
                             </button>
-                        </div>
-                        <div className="bg-[#E26E5D] border-2 border-white fmb text-center w-full sm:px-8 py-2">
+                        </div> */}
+                        {/* <div className="bg-[#E26E5D] border-2 border-white fmb text-center w-full sm:px-8 py-2">
                             <button
                                 className={activeLang === disclaimersArabic ? "" : "text"}
                                 onClick={switchLang}
                             >
                                 <span className="fmb">Arabic</span>
                             </button>
-                        </div>
+                        </div> */}
                     </div>
                     <br></br>
                     <section className={`lg:block hidden ${isFadeButtons ? "fade" : "show"}`}>

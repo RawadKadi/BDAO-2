@@ -30,7 +30,6 @@ export default function RootLayout({ children }) {
                     type="module"
                 />
                 <link rel="icon" href="../../public/favicon.ico" />
-                <link rel="stylesheet" href="/font.scss" />
                 <style jsx global>{`
                     html {
                         font-family: ${ibm.style.fontFamily};
