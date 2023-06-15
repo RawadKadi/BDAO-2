@@ -15,6 +15,9 @@
 //     src: url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap') format('woff2');
 //     font-display: swap;
 //   }
+// @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
 html {
     color: white;
     overflow-x: hidden;
@@ -24,21 +27,21 @@ html {
     border-width: 3px;
 }
 
-p,
-div,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-button {
-    font-family: "IBM Plex Mono", monospace;
-}
+// p,
+// div,
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6,
+// button {
+//     font-family: "IBM Plex Mono", monospace;
+// }
 
-.fmb {
-    font-family: "Press Start 2P" !important;
-}
+// .fmb {
+//     font-family: var(--font-ps2p);
+// }
 
 .main-bg {
     background: linear-gradient(180deg, #ffb898 0%, #ffdbaf 100%);

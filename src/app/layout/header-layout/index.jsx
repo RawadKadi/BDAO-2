@@ -23,7 +23,6 @@ const Header = () => {
     // check scroll amount
     useEffect(() => {
         function checkScroll() {
-            console.log(window.scrollY);
             setScrollY(window.scrollY);
         }
 
@@ -74,7 +73,7 @@ const Header = () => {
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path
-                                fill-rule="evenodd"
+                                fillRule="evenodd"
                                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                                 clipRule="evenodd"
                             ></path>
@@ -91,39 +90,39 @@ const Header = () => {
                 >
                     <ul className="flex flex-col md:flex-row mt-4 md:mt-0 font-semibold  md:gap-x-16 md:mx-auto space-y-8 md:space-y-0 relative ">
                         <li>
-                            <a
+                            <Link
                                 href="/"
                                 className={`header-link  ${pathname === "/" ? "active" : ""}`}
                             >
                                 Home
-                            </a>
+                            </Link>
                         </li>
 
                         <li>
-                            <a
+                            <Link
                                 href="/about"
                                 className={`header-link  ${pathname === "/about" ? "active" : ""}`}
                             >
                                 About
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="/Ap"
                                 className={`header-link  ${pathname === "/ap" ? "active" : ""}`}
                             >
                                 Ap
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="/roadmap"
                                 className={`header-link  ${
                                     pathname === "/roadmap" ? "active" : ""
                                 }`}
                             >
                                 RoadMap
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

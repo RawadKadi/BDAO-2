@@ -381,7 +381,8 @@ export default function useRoadmap() {
                                 <div className="flex gap-5 mt-4 ml-4">
                                     <span className="fmb">1</span>
                                     <span className="font-semibold">
-                                    Launch of Bricklayer Listing Portal Bricklayer  <br /> NFT Asset Sales and Escrow Platform Voting Platform 
+                                        Launch of Bricklayer Listing Portal Bricklayer <br /> NFT
+                                        Asset Sales and Escrow Platform Voting Platform
                                     </span>{" "}
                                     {/* Added font-semibold class */}
                                 </div>
@@ -406,7 +407,8 @@ export default function useRoadmap() {
                                     <span className="fmb">2</span>{" "}
                                     {/* Added inline style for right margin */}
                                     <span className="font-semibold">
-                                    Layer 2 Proposals Release 3rd <br /> Partner Occupier Launch the Brickworks Tapestry
+                                        Layer 2 Proposals Release 3rd <br /> Partner Occupier Launch
+                                        the Brickworks Tapestry
                                     </span>
                                 </div>
                             </div>
@@ -435,7 +437,8 @@ export default function useRoadmap() {
                                 <div className="flex gap-5 mt-4 ml-4">
                                     <span className="fmb">1</span>
                                     <span className="font-semibold">
-                                    Decentralized Certification Release 4th and 5th  <br /> Partner Occupiers Voting Platform 
+                                        Decentralized Certification Release 4th and 5th <br />{" "}
+                                        Partner Occupiers Voting Platform
                                     </span>{" "}
                                     {/* Added font-semibold class */}
                                 </div>
@@ -460,7 +463,7 @@ export default function useRoadmap() {
                                     <span className="fmb">2</span>{" "}
                                     {/* Added inline style for right margin */}
                                     <span className="font-semibold">
-                                    – Lending and Financial  <br /> Partnerships
+                                        – Lending and Financial <br /> Partnerships
                                     </span>
                                 </div>
                             </div>
@@ -485,31 +488,39 @@ export default function useRoadmap() {
                     <div className="title fmb text-4xl sm:text-7xl text-center mt-14">ROADMAP</div>
                     <div className="bg-blur mt-8">
                         <div className="flex justify-center gap-6 py-4">
-                            <button
-                                className={`bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2 w-32 text-sm sm:w-auto sm:text-base ${
-                                    activeYear === 1 ? "active" : ""
-                                }`}
-                                onClick={() => handleYearClick(1)}
-                            >
-                                {" "}
-                                Year 1
-                            </button>
-                            <button
-                                className={`bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2 w-32 text-sm sm:w-auto sm:text-base ${
-                                    activeYear === 2 ? "active" : ""
-                                }`}
-                                onClick={() => handleYearClick(2)}
-                            >
-                                {" "}
-                                Year 2
-                            </button>
-                            <button
-                                className={`bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2 w-32 text-sm sm:w-auto sm:text-base ${
-                                    activeYear === 3 ? "active" : ""
-                                }`}
-                                onClick={() => handleYearClick(3)}
-                            >                                Year 3
-                            </button>
+                        <button
+        className={`bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2 w-32 text-sm sm:w-auto sm:text-base ${
+          activeYear === 1 ? "active" : ""
+        }`}
+        style={{
+          backgroundColor: activeYear === 1 ? "#E26E5D" : "transparent",
+        }}
+        onClick={() => handleYearClick(1)}
+      >
+        Year 1
+      </button>
+      <button
+        className={`bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2 w-32 text-sm sm:w-auto sm:text-base ${
+          activeYear === 2 ? "active" : ""
+        }`}
+        style={{
+          backgroundColor: activeYear === 2 ? "#E26E5D" : "transparent",
+        }}
+        onClick={() => handleYearClick(2)}
+      >
+        Year 2
+      </button>
+      <button
+        className={`bg-transparent hover:bg-[#E26E5D] border-3 border-white hover:border-[#E26E5D] fmb p-2 w-32 text-sm sm:w-auto sm:text-base ${
+          activeYear === 3 ? "active" : ""
+        }`}
+        style={{
+          backgroundColor: activeYear === 3 ? "#E26E5D" : "transparent",
+        }}
+        onClick={() => handleYearClick(3)}
+      >
+        Year 3
+      </button>
                         </div>
                     </div>
                     <br />
