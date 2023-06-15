@@ -1,4 +1,6 @@
 import "./disclaimerE.scss";
+import Image from "next/image";
+
 const disclaimersEng = [
     {
         id: 0,
@@ -591,7 +593,8 @@ const disclaimersEng = [
                         New Treasury NAV: $23M
                         <br />
                         <br />
-                        <img src="/example.jpg" alt="example image"></img>
+
+                        <Image src="/example.jpg" alt="example image" />
                         *Assumption that Real Estate Asset Value remains unchanged at $15,000,000
                         <br />
                         <br />
@@ -1238,7 +1241,7 @@ const disclaimersEng = [
                         Total Supply: 990,000,000 $BRICKS across three separate funding rounds at
                         5-year intervals (2023, 2028 & 2033)
                         <br /> <br />
-                        <img src="/tokenomics.jpg" />
+                        <Image src="/tokenomics.jpg" alt="Tokenomics Image"/>
                         <br /> <br />
                         Total Supply Issued: 2023 Funding Round 1 - 330,000,000 $BRICKS
                         <br /> <br />
