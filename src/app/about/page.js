@@ -11,7 +11,7 @@ export default function About() {
     const [selectedOption, setSelectedOption] = React.useState(0);
     const [isFade, setIsFade] = React.useState(false);
     const [isFadeButtons] = React.useState(false);
-    const [setIsTarget] = React.useState(0);
+    const [,setIsTarget] = React.useState(0);
 
     const onChange = (e) => {
         const selectedValue = e.target.value;
@@ -39,11 +39,11 @@ export default function About() {
     // };
 
     const onButtonClick = (e) => {
-        const target = e.currentTarget.dataset.id;
-        setIsTarget(target);
+        const target_ = e.currentTarget.dataset.id;
+        setIsTarget(target_);
         setIsFade(true);
         setTimeout(() => setIsFade(false), 500);
-        setTimeout(() => setActiveEl(activeLang[target]), 500);
+        setTimeout(() => setActiveEl(activeLang[target_]), 500);
     };
 
     return (
@@ -105,10 +105,10 @@ export default function About() {
                         >
                             {activeLang.map((item) => (
                                 <option value={item.id} key={item.id}>
-                                    <div>
+                                    
                                         <span>{item.id} </span>
                                         <span className="translate">{item.disclaimer}</span>
-                                    </div>
+                                    
                                 </option>
                             ))}
                         </select>
