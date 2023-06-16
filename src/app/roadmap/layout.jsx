@@ -1,5 +1,4 @@
 import Script from "next/script";
-import { Inter } from "next/font/google";
 
 import Header from "../layout/header-layout";
 
@@ -8,7 +7,6 @@ import "@/scss/globals.scss";
 import "@/scss/button.scss";
 import "./roadmap.scss"
 
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
     title: "BDAO",
@@ -17,15 +15,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en">
-            <head>
+        <>
+            
                 <Script
                     src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"
                     type="module"
                 />
-            </head>
+            
             <Header/>
-            <body className={`${inter.className}`}>
+            
                 <div className="main-bg">
                     <div className="bg-texture">
                         <div className="bg-road">
@@ -34,8 +32,8 @@ export default function RootLayout({ children }) {
                         </div>
                     </div>
                 </div>
-            </body>
             
-        </html>
+            
+        </>
     )
 }

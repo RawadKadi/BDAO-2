@@ -7,6 +7,7 @@ import Footer from "./layout/footer-layout";
 import { ibm, ps2p } from "./fonts";
 
 import "./layout/header-layout/header.scss";
+import "@/scss/globals.scss";
 import "@/scss/button.scss";
 
 
