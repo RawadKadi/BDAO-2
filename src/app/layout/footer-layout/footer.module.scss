@@ -1,6 +1,14 @@
-
 .doll {
-    animation: walk 5s linear infinite;
+    animation: walk 25s linear infinite;
+    // background-color: red;
+
+    @media screen and (max-width: 768px) {
+        animation: walk 5s linear infinite;
+    }
+
+    @media screen and (max-width: 1024px) {
+        animation: walk 10s linear infinite;
+    }
 }
 
 @keyframes walk {
@@ -9,6 +17,6 @@
     }
 
     to {
-        left: -20%;
+        left: calc(0px - 103px);
     }
 }

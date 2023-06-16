@@ -5,8 +5,7 @@ import Header from "../layout/header-layout";
 import "../layout/header-layout/header.scss";
 import "@/scss/globals.scss";
 import "@/scss/button.scss";
-import "./roadmap.scss"
-
+import "./roadmap.scss";
 
 export const metadata = {
     title: "BDAO",
@@ -16,24 +15,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <>
-            
-                <Script
-                    src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"
-                    type="module"
-                />
-            
-            <Header/>
-            
-                <div className="main-bg">
-                    <div className="bg-texture">
-                        <div className="bg-road">
-                            <section className="pt-[81px]"></section>
-                             {children}
-                        </div>
+            <Script
+                src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"
+                type="module"
+            />
+
+            <Header />
+
+            <div className="main-bg">
+                <div className="bg-texture">
+                    <div className="bg-road">
+                        {/* <section className="pt-[81px]"></section> */}
+                        {children}
                     </div>
                 </div>
-            
-            
+            </div>
         </>
-    )
+    );
 }
