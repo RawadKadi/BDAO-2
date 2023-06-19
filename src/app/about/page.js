@@ -11,7 +11,7 @@ export default function About() {
     const [selectedOption, setSelectedOption] = React.useState(0);
     const [isFade, setIsFade] = React.useState(false);
     const [isFadeButtons] = React.useState(false);
-    const [,setIsTarget] = React.useState(0);
+    const [, setIsTarget] = React.useState(0);
 
     const onChange = (e) => {
         const selectedValue = e.target.value;
@@ -105,10 +105,8 @@ export default function About() {
                         >
                             {activeLang.map((item) => (
                                 <option value={item.id} key={item.id}>
-                                    
-                                        <span>{item.id} </span>
-                                        <span className="translate">{item.disclaimer}</span>
-                                    
+                                    <span>{item.id} </span>
+                                    <span className="translate">{item.disclaimer}</span>
                                 </option>
                             ))}
                         </select>
