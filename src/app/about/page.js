@@ -126,7 +126,7 @@ export default function About() {
                                 }),
                                 option: (provided, state) => ({
                                     ...provided,
-                                    borderRadius: "0.375rem",
+                                    
                                     border: "3px solid white",
                                     backgroundColor: state.isSelected ? "white" : "#E26E5D",
                                     color: state.isSelected ? "#E26E5D" : "white",
