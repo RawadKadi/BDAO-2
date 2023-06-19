@@ -36,7 +36,7 @@ html {
         position: relative;
         top: 595px;
         left: 63%;
-        width: 152px;
+        width: 12px;
         height: auto;
         background-image: url("/Bricktop 1.png");
         background-size: cover;
@@ -155,12 +155,14 @@ html {
     .box::before {
         content: "";
         position: absolute;
-        top: 74.4%;
-        left: 70%;
-        width: 200px;
-        height: 230px;
+        top: 87.7%;
+        left: 78%;
+        bottom:0;
+        right:0;
+        width: 100px; /* decrease size as needed */
+        height: 180px; /* decrease size as needed */
         background-image: url("/Bricktop 1.png");
-        
+        background-repeat: no-repeat; /* prevent image repeat */
         background-size: 100%;
     }
 }

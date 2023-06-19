@@ -4,7 +4,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import "./page.scss";
-import "../scss/globals.scss"
+import "../scss/globals.scss";
+
 export default function Home() {
     return (
         <section>
@@ -62,40 +63,35 @@ export default function Home() {
                     <br></br>
                 </div>
                 <div className="md:mt-6">
-                    <div className="flex justify-center font-semibold fmi bg-blur2">
-                        <button className="button3D  md:inline-flex hidden">
-                            <span className="text-[16px] has-te">Launch the app</span>
-                            <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
-                        </button>
-                    </div>
+                <div
+                                className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10"
+                                style={{ marginBottom: "90px" }}
+                            >
+                                <button className="button3D inline-flex md:p-3 sm:w-[200px] w-[160px]">
+                                    <span className="md:text-[15px] text-[10px] has-te">
+                                        Launch the App
+                                    </span>
+                                    <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
+                                </button>
+                            </div>
                     <div className="flex justify-center mt-24 pb-56">
-                        <div
-                            className="box relative border-3 border-white text-center h-[900px] sm:w-[700px] w-full mx-6"
-                            style={{ padding: "70px" }}
-                        >
-                            {/*Desktop design*/}
+                        <div className="box relative border-3 border-white text-center  sm:w-[700px] w-full mx-6 md:p-8 sm:p-2">
+                            {/* Desktop design */}
                             <p className="title fmb text-[24px] mt-14 md:block hidden vector1">
                                 Start laying $BRICKS
                             </p>
-                            <div className="mt-3 font-semibold md:block hidden text-[16px]">
+                            <div className="mt-3 md:font-semibold font-normal text-sm sm:text-base md:text-lg md:block hidden">
                                 <p>
                                     This platform provides our community with access to
-                                    <br />
-                                    institutional-grade occupiers and builds wealth
-                                    <br />
-                                    through sophisticated real estate transactions fueled
-                                    <br />
-                                    by digital asset growth. An original and simple
-                                    <br />
-                                    approach which prioritizes smart hedging strategies
-                                    <br />
-                                    consistent dividend generation, and creating capital
-                                    <br />
-                                    value appreciation.
+                                    institutional-grade occupiers and builds wealth through
+                                    sophisticated real estate transactions fueled by digital asset
+                                    growth. An original and simple approach which prioritizes smart
+                                    hedging strategies, consistent dividend generation, and creating
+                                    capital value appreciation.
                                 </p>
                             </div>
 
-                            {/*Mobile design*/}
+                            {/* Mobile design */}
                             <div className="title text-[24px] md:hidden mt-12 vector1">
                                 <p className="fmb">Start laying</p>
                                 <p className="fmb">$BRICKS</p>
@@ -113,37 +109,39 @@ export default function Home() {
 
                             <div
                                 className="flex video justify-center md:mt-16 mt-6 mx-7 my-2 h-[300px]"
-                                style={{ cursor: "pointer", position: "relative",borderRadius:"5px" }}
+                                style={{
+                                    cursor: "pointer",
+                                    position: "relative",
+                                    borderRadius: "5px",
+                                }}
                             >
                                 <Image width={45} height={45} src="/Ellipse 10.svg" alt="" />
-                                <Image
-                                    src="/shovel.png"
-                                    width={175}
-                                    height={175}
-                                    alt=""
-                                    style={{
-                                        position: "absolute",
-                                        left: -65,
-                                        bottom: -55,
-                                        zIndex: 1,
-                                    }}
-                                />
-                                <Image
-                                    src="/brick.png"
-                                    width={175}
-                                    height={175}
-                                    alt=""
-                                    style={{
-                                        position: "absolute",
-                                        top: 30,
-                                        right: -80,
-                                        zIndex: 0,
-                                    }}
-                                />
+                                <div className="absolute md:left-[0px] md:bottom-[-5px] bottom-[0px] left-[30px] md:w-44 md:h-44 w-24 h-24 ">
+                                    <Image
+                                        src="/shovel.png"
+                                        width={175}
+                                        height={175}
+                                        alt=""
+                                        style={{
+                                            position: "absolute",
+                                            left: -65,
+                                            bottom: -55,
+                                            zIndex: 1,
+                                        }}
+                                    />
+                                </div>
+                                <div className="absolute md:w-44 md:h-44 w-24 h-24 md:top-[-50px] top-[-20px] right-0 ">
+                                    <Image src="/brick.png" width={185} height={175} alt="" />
+                                </div>
                             </div>
-                            <div className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10">
-                                <button className="button3D  md:inline-flex " style={{width:"200px"}}>
-                                    <span className="text-[16px] has-te">Launch the app</span>
+                            <div
+                                className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10"
+                                style={{ marginBottom: "90px" }}
+                            >
+                                <button className="button3D inline-flex md:p-3 sm:w-[200px] w-[160px]">
+                                    <span className="md:text-[15px] text-[10px] has-te">
+                                        JOIN the WAIT
+                                    </span>
                                     <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
                                 </button>
                             </div>
