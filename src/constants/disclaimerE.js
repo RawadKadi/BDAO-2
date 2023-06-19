@@ -376,77 +376,80 @@ const disclaimersEng = [
                         and liquidity.
                         <br /> <br />
                     </p>
-                    <table>
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Traditional REIT</th>
-                                <th>*Fee</th>
-                                <th>Bricklayer DAO</th>
-                                <th>*Fee</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Annual Fund Management Fee</td>
-                                <td>1-3% of Gross Asset Value</td>
-                                <td>$3,000,000</td>
-                                <td>No Fee</td>
-                                <td>$0</td>
-                            </tr>
-                            <tr>
-                                <td>Acquisition Fees</td>
-                                <td>1-2%</td>
-                                <td>$2,000,000</td>
-                                <td>0.5%</td>
-                                <td>$500,000</td>
-                            </tr>
-                            <tr>
-                                <td>Disposition Fees</td>
-                                <td>1-2%</td>
-                                <td>$2,000,000</td>
-                                <td>0.5%</td>
-                                <td>$500,000</td>
-                            </tr>
-                            <tr>
-                                <td>Profit Share</td>
-                                <td>20% above agreed hurdle rate</td>
-                                <td>$800,000</td>
-                                <td>10% net profit on RE disposals. No hurdle rate.</td>
-                                <td>$1,000,000</td>
-                            </tr>
-                            <tr>
-                                <td>Property Management Fee</td>
-                                <td>10% on annual rent</td>
-                                <td>$1,000,000</td>
-                                <td>No fee. Absorbed within RIA</td>
-                                <td>$0</td>
-                            </tr>
-                            <tr>
-                                <td>Retained Income Allowance (RIA)</td>
-                                <td>1-10%</td>
-                                <td>$1,000,000</td>
-                                <td>10%</td>
-                                <td>$1,000,000</td>
-                            </tr>
-                            <tr>
-                                <td>Inflation Rate</td>
-                                <td>Undisclosed employee RSUs and stock rewards</td>
-                                <td></td>
-                                <td>Transparent 2% per annum built into smart contract</td>
-                                <td></td>
-                            </tr>
-                            <tr>
-                                <td style={{ fontWeight: "bold" }}>Fee Total</td>
-                                <td></td>
-                                <td style={{ fontWeight: "bold" }}>$9,800,000</td>
-                                <td></td>
-                                <td style={{ fontWeight: "bold" }}>
-                                    $3,000,000 <br></br>70% Saving on tradiƟonal REIT fee structure
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div style={{ overflowX: "auto" }}>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th>Traditional REIT</th>
+                                    <th>*Fee</th>
+                                    <th>Bricklayer DAO</th>
+                                    <th>*Fee</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Annual Fund Management Fee</td>
+                                    <td>1-3% of Gross Asset Value</td>
+                                    <td>$3,000,000</td>
+                                    <td>No Fee</td>
+                                    <td>$0</td>
+                                </tr>
+                                <tr>
+                                    <td>Acquisition Fees</td>
+                                    <td>1-2%</td>
+                                    <td>$2,000,000</td>
+                                    <td>0.5%</td>
+                                    <td>$500,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Disposition Fees</td>
+                                    <td>1-2%</td>
+                                    <td>$2,000,000</td>
+                                    <td>0.5%</td>
+                                    <td>$500,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Profit Share</td>
+                                    <td>20% above agreed hurdle rate</td>
+                                    <td>$800,000</td>
+                                    <td>10% net profit on RE disposals. No hurdle rate.</td>
+                                    <td>$1,000,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Property Management Fee</td>
+                                    <td>10% on annual rent</td>
+                                    <td>$1,000,000</td>
+                                    <td>No fee. Absorbed within RIA</td>
+                                    <td>$0</td>
+                                </tr>
+                                <tr>
+                                    <td>Retained Income Allowance (RIA)</td>
+                                    <td>1-10%</td>
+                                    <td>$1,000,000</td>
+                                    <td>10%</td>
+                                    <td>$1,000,000</td>
+                                </tr>
+                                <tr>
+                                    <td>Inflation Rate</td>
+                                    <td>Undisclosed employee RSUs and stock rewards</td>
+                                    <td></td>
+                                    <td>Transparent 2% per annum built into smart contract</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td style={{ fontWeight: "bold" }}>Fee Total</td>
+                                    <td></td>
+                                    <td style={{ fontWeight: "bold" }}>$9,800,000</td>
+                                    <td></td>
+                                    <td style={{ fontWeight: "bold" }}>
+                                        $3,000,000 <br></br>70% Saving on tradiƟonal REIT fee
+                                        structure
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <p className="text-[20px] mt-4" style={{ fontWeight: "bold" }}>
                         *Total fees based on $100M acquisition at a return of 10% with a 6% hurdle
                         rate then sold for $110M.
@@ -524,7 +527,7 @@ const disclaimersEng = [
                     <h1
                         style={{
                             textDecoration: "underline",
-                            fontSize: "2rem",
+                            fontSize: "1.8rem",
                             fontWeight: "bold",
                         }}
                     >
@@ -593,8 +596,7 @@ const disclaimersEng = [
                         New Treasury NAV: $23M
                         <br />
                         <br />
-
-                        <Image src="/example.jpg" alt="example image" />
+                        <Image src="/example.jpg" width={700} height={700} alt="example image" />
                         *Assumption that Real Estate Asset Value remains unchanged at $15,000,000
                         <br />
                         <br />
@@ -1241,7 +1243,12 @@ const disclaimersEng = [
                         Total Supply: 990,000,000 $BRICKS across three separate funding rounds at
                         5-year intervals (2023, 2028 & 2033)
                         <br /> <br />
-                        <Image src="/tokenomics.jpg" alt="Tokenomics Image"/>
+                        <Image
+                            src="/tokenomics.jpg"
+                            width={700}
+                            height={700}
+                            alt="Tokenomics Image"
+                        />
                         <br /> <br />
                         Total Supply Issued: 2023 Funding Round 1 - 330,000,000 $BRICKS
                         <br /> <br />
@@ -1416,7 +1423,7 @@ const disclaimersEng = [
                         Year 1
                     </h1>
                     <p className="text-[20px] mt-4">
-                        <ul style="list-style-type: none;">
+                        <ul style={{ listStyleType: "none" }}>
                             <li>Formation of UAE Legal Entity</li>
                             <li>Blockchain Grant Application</li>
                             <li>Full scale project development</li>
@@ -1434,6 +1441,7 @@ const disclaimersEng = [
                             <li>Genesis Layer Transaction Completion & Transfer to Treasury</li>
                             <li>Release 2nd Partner Occupier</li>
                         </ul>
+                        <br /> <br />
                     </p>
                     <h1
                         style={{
@@ -1445,13 +1453,14 @@ const disclaimersEng = [
                         Year 2
                     </h1>
                     <p className="text-[20px] mt-4">
-                        <ul style="list-style-type: none;">
+                        <ul style={{ listStyleType: "none" }}>
                             <li>Launch of Bricklayer Listing Portal</li>
                             <li>Bricklayer NFT Asset Sales and Escrow Platform</li>
                             <li>Voting Platform - Layer 2 Proposals</li>
                             <li>Release 3rd Partner Occupier</li>
                             <li>Launch the Brickworks Tapestry</li>
                         </ul>
+                        <br /> <br />
                     </p>
                     <h1
                         style={{
@@ -1463,9 +1472,9 @@ const disclaimersEng = [
                         Year 3
                     </h1>
                     <p className="text-[20px] mt-4">
-                        <ul style="list-style-type: none;">
+                        <ul style={{ listStyleType: "none" }}>
                             <li>Decentralized Certification</li>
-                            <li>Release 4th and 5th Partner Occupiers </li>
+                            <li>Release 4th and 5th Partner Occupiers</li>
                             <li>Voting Platform – Lending and Financial Partnerships</li>
                         </ul>
                     </p>

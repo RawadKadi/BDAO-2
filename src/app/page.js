@@ -54,26 +54,20 @@ export default function Home() {
                 <div className="bg-small-img md:hidden">
                     <br></br>
                     <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <br></br>
+                    
                 </div>
                 <div className="md:mt-6">
-                <div
-                                className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10"
-                                style={{ marginBottom: "90px" }}
-                            >
-                                <button className="button3D inline-flex md:p-3 sm:w-[200px] w-[160px]">
-                                    <span className="md:text-[15px] text-[10px] has-te">
-                                        Launch the App
-                                    </span>
-                                    <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
-                                </button>
-                            </div>
+                    <div
+                        className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10 "
+                        style={{ marginBottom: "90px" }}
+                    >
+                        <button className="button3D inline-flex md:p-3 sm:w-[200px] w-[160px]">
+                            <span className="md:text-[15px] text-[10px] has-te">
+                                Launch the App
+                            </span>
+                            <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
+                        </button>
+                    </div>
                     <div className="flex justify-center mt-24 pb-56">
                         <div className="box relative border-3 border-white text-center  sm:w-[700px] w-full mx-6 md:p-8 sm:p-2">
                             {/* Desktop design */}

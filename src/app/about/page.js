@@ -4,6 +4,7 @@ import React from "react";
 
 import disclaimersEng from "@/constants/disclaimerE";
 import "./about.scss";
+import Select from "react-select";
 
 export default function About() {
     const [activeLang] = React.useState(disclaimersEng);
@@ -13,11 +14,13 @@ export default function About() {
     const [isFadeButtons] = React.useState(false);
     const [, setIsTarget] = React.useState(0);
 
-    const onChange = (e) => {
-        const selectedValue = e.target.value;
-        setTimeout(() => setSelectedOption(selectedValue), 500);
-        setIsFade(true);
-        setTimeout(() => setIsFade(false), 500);
+    const onChange = (selectedOption) => {
+        if (selectedOption) {
+            const selectedValue = selectedOption.value;
+            setTimeout(() => setSelectedOption(selectedValue), 500);
+            setIsFade(true);
+            setTimeout(() => setIsFade(false), 500);
+        }
     };
 
     // const switchLang = () => {
@@ -76,7 +79,9 @@ export default function About() {
                                     onClick={onButtonClick}
                                     key={item.id}
                                     data-id={item.id}
-                                    className="hover:bg-[#E26E5D] opacity-90 border-transparent py-2 cursor-pointer xl:w-[340px]"
+                                    className={`hover:bg-[#E26E5D] active:bg-[#E26E5D] opacity-90 border-transparent py-2 cursor-pointer xl:w-[340px] ${
+                                        activeEl === item ? "bg-[#E26E5D]" : ""
+                                    }`}
                                 >
                                     <div
                                         className={
@@ -99,17 +104,82 @@ export default function About() {
                         </div>
                     </section>
                     <section className="lg:hidden">
-                        <select
+                        <Select
+                            options={activeLang.map((item) => ({
+                                value: item.id,
+                                label: `${item.id} ${item.disclaimer}`,
+                            }))}
                             onChange={onChange}
-                            className="bg-[#E26E5D] font-semibold py-2.5 rounded border-2 border-white w-full"
-                        >
-                            {activeLang.map((item) => (
-                                <option value={item.id} key={item.id}>
-                                    <span>{item.id} </span>
-                                    <span className="translate">{item.disclaimer}</span>
-                                </option>
-                            ))}
-                        </select>
+                            className="custom-select bg-[#E26E5D]"
+                            classNamePrefix="custom-select"
+                            styles={{
+                                control: (provided) => ({
+                                    ...provided,
+                                    backgroundColor: "#E26E5D",
+                                    fontWeight: "bold",
+                                    borderRadius: "0.375rem",
+                                    border: "3px solid white",
+                                    color: "white",
+                                    overflow: "hidden",
+                                    whiteSpace: "nowrap", // Prevent text wrapping
+                                    textOverflow: "ellipsis", 
+                                }),
+                                option: (provided, state) => ({
+                                    ...provided,
+                                    borderRadius: "0.375rem",
+                                    border: "3px solid white",
+                                    backgroundColor: state.isSelected ? "white" : "#E26E5D",
+                                    color: state.isSelected ? "#E26E5D" : "white",
+                                    width: "99%",
+                                    padding: "5px",
+                                    marginBottom: "5px",
+                                    marginLeft: "2px",
+                                    fontSize: "0.8rem",
+                                    whiteSpace: "nowrap", // Prevent text wrapping
+                                    overflow: "hidden", // Hide any overflowing text
+                                    textOverflow: "ellipsis", // Show ellipsis (...) for truncated text
+                                }),
+                                menu: (provided) => ({
+                                    ...provided,
+                                    backgroundColor: "#E26E5D",
+                                    color: "white",
+                                    whiteSpace: "nowrap", // Prevent text wrapping
+                                    overflow: "hidden", // Hide any overflowing text
+                                    textOverflow: "ellipsis", 
+                                }),
+                                singleValue: (provided) => ({
+                                    ...provided,
+                                    color: "white",
+                                    whiteSpace: "nowrap", // Prevent text wrapping
+                                    overflow: "hidden", // Hide any overflowing text
+                                    textOverflow: "ellipsis", 
+                                }),
+                                placeholder: (provided) => ({
+                                    ...provided,
+                                    color: "white",
+                                    whiteSpace: "nowrap", // Prevent text wrapping
+                                    overflow: "hidden", // Hide any overflowing text
+                                    textOverflow: "ellipsis", 
+                                }),
+                                menuList: (provided) => ({
+                                    ...provided,
+                                    whiteSpace: "nowrap", // Prevent text wrapping
+                                     // Hide any overflowing text
+                                    textOverflow: "ellipsis", 
+                                    "&::-webkit-scrollbar": {
+                                        width: "8px",
+                                    },
+                                    "&::-webkit-scrollbar-thumb": {
+                                        backgroundColor: "white",
+                                        borderRadius: "4px",
+                                    },
+                                    "&::-webkit-scrollbar-track": {
+                                        backgroundColor: "#E26E5D",
+                                        borderRadius: "4px",
+                                    },
+                                }),
+                            }}
+                        />
                     </section>
                 </div>
                 <div className="column-2 bg-opacity-80 relative bg-[#E26E5D] border-3 border-white mb-72 lg:block hidden xl:w-[900px] xl:min-h-[750px] w-full">
