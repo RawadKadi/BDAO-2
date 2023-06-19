@@ -130,7 +130,7 @@ export default function About() {
                                     border: "3px solid white",
                                     backgroundColor: state.isSelected ? "white" : "#E26E5D",
                                     color: state.isSelected ? "#E26E5D" : "white",
-                                    width: "99%",
+                                    width: "98.8%",
                                     padding: "5px",
                                     marginBottom: "5px",
                                     marginLeft: "2px",
@@ -167,15 +167,15 @@ export default function About() {
                                      // Hide any overflowing text
                                     textOverflow: "ellipsis", 
                                     "&::-webkit-scrollbar": {
-                                        width: "8px",
+                                        width: "5px",
                                     },
                                     "&::-webkit-scrollbar-thumb": {
                                         backgroundColor: "white",
-                                        borderRadius: "4px",
+                                        borderRadius: "2px",
                                     },
                                     "&::-webkit-scrollbar-track": {
                                         backgroundColor: "#E26E5D",
-                                        borderRadius: "4px",
+                                        borderRadius: "2px",
                                     },
                                 }),
                             }}
