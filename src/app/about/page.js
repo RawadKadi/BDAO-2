@@ -127,10 +127,10 @@ export default function About() {
                                 option: (provided, state) => ({
                                     ...provided,
                                     
-                                    border: "3px solid white",
+                                    border: "2px solid white",
                                     backgroundColor: state.isSelected ? "white" : "#E26E5D",
                                     color: state.isSelected ? "#E26E5D" : "white",
-                                    width: "98.8%",
+                                    width: "98.1%",
                                     padding: "5px",
                                     marginBottom: "5px",
                                     marginLeft: "2px",
@@ -141,6 +141,8 @@ export default function About() {
                                 }),
                                 menu: (provided) => ({
                                     ...provided,
+                                    border: "1px solid white",
+padding:"3px",
                                     backgroundColor: "#E26E5D",
                                     color: "white",
                                     whiteSpace: "nowrap", // Prevent text wrapping
