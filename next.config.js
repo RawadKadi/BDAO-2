@@ -4,8 +4,10 @@ module.exports = {
     },
     experimental: {
         // Enables the styled-components SWC transform
-        styledComponents: true
+        styledComponents: true,
+        appDir: true,
       },
+      
     webpack: (config) => {
         config.module.rules.push({
             test: /\.glb$/,

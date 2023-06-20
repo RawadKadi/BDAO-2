@@ -42,7 +42,7 @@ export default function Ap() {
                         <h1 className="fmb sm:text-[24px] text-[19px]">Interested?</h1>
                     </div>
                     <div className="flex justify-center font-semibold fmi bg-blur2">
-                        <button className="button3D md:inline-flex hidden">
+                        <button className="button3D md:inline-flex">
                             <span className="text-[16px] has-te">Apply and Learn more here</span>
                         </button>
                     </div>
