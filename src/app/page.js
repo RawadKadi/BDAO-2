@@ -57,7 +57,7 @@ export default function Home() {
                 </div>
                 <div className="md:mt-6">
                     <div
-                        className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10 "
+                        className="flex  justify-center mt-12 mb-9 font-semibold fmi mt-10 "
                         style={{ marginBottom: "90px" }}
                     >
                         <button className="button3D inline-flex md:p-3 sm:w-[200px] w-[160px]">
