@@ -18,13 +18,13 @@ export default function Footer() {
                     ></Image>
                 </div>
 
-                <Image
+                <img
                     className="sm:block hidden"
-                    width={2000}
-                    height={700}
+                    style={{ width: "100%", height: "auto", maxHeight: "700px" }}
+                    
                     src="/footer/walld.png"
                     alt=""
-                ></Image>
+                ></img>
                 <Image
                     className="sm:hidden block"
                     width={768}

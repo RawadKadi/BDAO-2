@@ -54,7 +54,6 @@ export default function Home() {
                 <div className="bg-small-img md:hidden">
                     <br></br>
                     <br></br>
-                    
                 </div>
                 <div className="md:mt-6">
                     <div
@@ -130,14 +129,35 @@ export default function Home() {
                             </div>
                             <div
                                 className="flex vector justify-center mt-12 mb-9 font-semibold fmi mt-10"
-                                style={{ marginBottom: "90px" }}
+                                style={{ marginBottom: "90px",zIndex:1 }}
                             >
                                 <button className="button3D inline-flex md:p-3 sm:w-[200px] w-[160px]">
-                                    <span className="md:text-[15px] text-[10px] has-te">
+                                    <span className="md:text-[15px] sm:text-[14px] has-te">
                                         JOIN the WAIT
                                     </span>
                                     <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
                                 </button>
+                            </div>
+                            <div
+                            className="bricktop"
+                                style={{
+                                    position: "absolute",
+                                    
+                                    bottom: "-10px",
+                                    left: "75%",
+                                    padding: "10px",
+                                     
+                                    zIndex:0
+                                }}
+                            >
+                                <Image
+                                    src="/Bricktop 1.png"
+                                    width={185}
+                                    height={175}
+                                    alt=""
+                                    className="desktop-image" /* Add this className for desktop styling */
+                                />
+                                
                             </div>
                         </div>
                     </div>
