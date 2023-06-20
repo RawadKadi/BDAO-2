@@ -61,7 +61,7 @@ export default function Home() {
                         style={{ marginBottom: "90px" }}
                     >
                         <button className="button3D inline-flex md:p-3 sm:w-[200px] w-[160px]">
-                            <span className="md:text-[15px] text-[10px] has-te">
+                            <span className="md:text-[15px] sm:text-[10px]">
                                 Launch the App
                             </span>
                             <img width={18} className="ml-3 mt-1" src="/Arrow 1.svg" />
