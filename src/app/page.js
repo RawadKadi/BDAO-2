@@ -150,7 +150,7 @@ export default function Home() {
                                     zIndex:0
                                 }}
                             >
-                                <Image
+                                <img
                                     src="/Bricktop 1.png"
                                     width={185}
                                     height={175}
